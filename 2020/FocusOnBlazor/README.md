@@ -1,5 +1,5 @@
 # ".NET Conf: Focus on Blazor" is a wrap!
-[![](Creative/dotNETConf_800x266_email_eventinfo.png)](https://focus.dotnetconf.net)
+[![](Creative/dotNETConf_800x266_email_eventInfo.png)](https://focus.dotnetconf.net)
 
 ## Thank you!
 
