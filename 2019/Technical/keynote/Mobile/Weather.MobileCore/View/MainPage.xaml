@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Weather.MobileCore.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:converters="clr-namespace:Weather.MobileCore.Converters"
+    xmlns:viewmodel="clr-namespace:Weather.MobileCore.ViewModel"
+    xmlns:model="clr-namespace:Weather.MobileCore.Model"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:DataType="viewmodel:WeatherViewModel">
+    <d:ContentPage.BindingContext>
+        <viewmodel:WeatherViewModel/>
+    </d:ContentPage.BindingContext>
+
+    <pancake:PancakeView BackgroundGradientStartColor="{Binding Temp, 
+                            Converter={converters:BackgroundColorConverter IsStart=True}}"
+                         BackgroundGradientEndColor="{Binding Temp, 
+                            Converter={converters:BackgroundColorConverter IsStart=False}}"
+                         BackgroundColor="Red">
+        <Grid Padding="{OnPlatform Android='0,24,0,0', iOS='0,44,0,0'}"
+              RowSpacing="4">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <StackLayout HorizontalOptions="End" 
+                         VerticalOptions="Start"
+                         Orientation="Horizontal" 
+                         Spacing="0" Margin="0,0,8,0">
+                <CheckBox IsChecked="{Binding UseCelsius}" Margin="{OnPlatform iOS='0,0,-16,0'}"
+                          HorizontalOptions="End" Color="White"/>
+                <Label Text="°C" VerticalOptions="Center" TextColor="White"/>
+            </StackLayout>
+            
+            <Label
+                HorizontalOptions="Center"
+                Text="SEATTLE" 
+                FontSize="Large"
+                TextColor="{StaticResource MainTextColor}"/>
+
+
+
+            <Image Grid.Row="1"
+                   x:Name="ImageSeattle"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                   Opacity=".8"
+                   Source="spaceneedle.png"
+                   Margin="0,0,0,-80"/>
+
+            <Grid Grid.Row="2" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label
+                    Grid.Column="1"
+                    Style="{StaticResource LabelTemperatureStyle}"
+                    Text="{Binding Temp}" />
+                <Label Grid.Column="2"
+                   Text="°"
+                   Style="{StaticResource LabelTemperatureStyle}"
+                   HorizontalOptions="Start"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="Center">
+                <Image Source="{Binding CurrentConditionsIcon}" WidthRequest="44" HeightRequest="44" Aspect="AspectFill"/>
+                <Label                
+                    VerticalOptions="Center"
+                    Text="{Binding CurrentConditions, Converter={converters:CaseConverter UseUpper=True}}" 
+                    FontSize="{OnPlatform iOS=Header, Android=Large}"
+                    TextColor="{StaticResource MainTextColor}"/>
+            </StackLayout>
+            <Label
+                Grid.Row="4"
+                HorizontalOptions="Center"
+                Text="{Binding Date, Converter={converters:CaseConverter UseUpper=True}}" 
+                FontSize="Small"
+                TextColor="{StaticResource MainTextColor}"/>
+
+            <CollectionView Grid.Row="5" Margin="0,20" 
+                            HeightRequest="80" 
+                            VerticalOptions="End"
+                            ItemsLayout="HorizontalList"
+                            ItemsSource="{Binding WeatherItems}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:DataItem">
+                        <Grid Padding="10">
+                            <pancake:PancakeView 
+                                CornerRadius="20,20,20,0" Padding="8" 
+                                BackgroundGradientStartColor="#98FFFFFF"
+                                BackgroundGradientEndColor="#60FFFFFF"
+                                BackgroundGradientAngle="315">
+                                <StackLayout Spacing="0"
+                                             VerticalOptions="Center">
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Small" TextColor="White" HorizontalOptions="Center"/>
+                                    <Label Text="{Binding Value}" TextColor="White" FontSize="Small" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </pancake:PancakeView>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Label Grid.RowSpan="6" Text="{Binding TimeStamp}" FontSize="Micro" TextColor="White" HorizontalOptions="End" VerticalOptions="End"/>
+        </Grid>
+    </pancake:PancakeView>
+</ContentPage>

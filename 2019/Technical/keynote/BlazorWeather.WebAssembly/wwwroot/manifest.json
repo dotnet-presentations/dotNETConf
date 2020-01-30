@@ -1,0 +1,16 @@
+﻿{
+  "short_name": "Weather",
+  "name": "Blazor Weather",
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#aaaaaa",
+  "display": "standalone",
+  "scope": "/ ",
+  "theme_color": "#333333"
+}

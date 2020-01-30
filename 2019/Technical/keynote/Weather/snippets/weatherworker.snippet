@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>weatherworker</Title>
+			<Shortcut>weatherworker</Shortcut>
+			<Description>Code snippet for weather worker</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+
+			<Code Language="csharp"><![CDATA[using Microsoft.Extensions.Caching.Memory;
+				using Microsoft.Extensions.Configuration;
+				using Microsoft.Extensions.Hosting;
+				using Microsoft.Extensions.Logging;
+				using System;
+				using System.Collections.Generic;
+				using System.Linq;
+				using System.Net.Http;
+				using System.Text.Json;
+				using System.Threading;
+				using System.Threading.Tasks;
+				
+				namespace Weather
+				{
+				
+					public class WeatherWorker : BackgroundService
+					{
+						private ILogger<WeatherWorker> _logger;
+						private IConfiguration _configuration;
+						private IHttpClientFactory _httpClientFactory;
+						private IMemoryCache _cache;
+						private const string LocationId = "340247";
+				
+						public WeatherWorker(ILogger<WeatherWorker> logger,
+											IConfiguration configuration,
+											IHttpClientFactory httpClientFactory,
+											IMemoryCache cache)
+						{
+							_logger = logger;
+				
+							_configuration = configuration;
+							_httpClientFactory = httpClientFactory;
+							_cache = cache;
+						}
+				
+						protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+						{
+							while (!stoppingToken.IsCancellationRequested)
+							{
+								try
+								{
+									var client = _httpClientFactory.CreateClient();
+				
+									var response = await client.GetAsync($$"{_configuration["weather:uri"]}/{LocationId}?apikey={_configuration["accuweathertoken"]}&details=true");
+									var model = await JsonSerializer.DeserializeAsync<Forecast[]>(await response.Content.ReadAsStreamAsync());
+				
+									_cache.Set("WeatherCache", model.First());
+				
+									await Task.Delay(TimeSpan.FromMinutes(10));
+								}
+								catch (Exception ex)
+								{
+									_logger.LogError("Unexpected error fetching weather data: {ex}", ex);
+								}
+							}
+						}
+					}
+				}
+				]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

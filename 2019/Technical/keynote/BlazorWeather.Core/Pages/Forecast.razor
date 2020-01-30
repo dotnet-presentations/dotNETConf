@@ -1,0 +1,102 @@
+﻿@page "/"
+@implements IDisposable
+@inject IWeatherForecastService WeatherForecastService
+
+@if (currentWeather == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div id="main" class="@GetBackgroundClass()">
+        <div class="weather-now">
+            <h1>SEATTLE</h1>
+            <div class="location-img"></div>
+            <div class="temperature">
+                @GetTemperature()
+                <TemperatureUnitPicker @bind-TemperatureUnit="temperatureUnit" />
+            </div>
+            <div class="summary">
+                <img class="weather-img" src="@currentWeather.WeartherUri" alt="@currentWeather.WeatherText" />
+                @currentWeather.WeatherText
+            </div>
+            <div class="update-info">Updated @GetTimeToDisplay()</div>
+            <div class="metrics">
+                <div>UV index <p>@currentWeather.UVIndex</p></div>
+                <div>Barometer <p>@currentWeather.Pressure</p></div>
+                <div>Humidity <p>@currentWeather.RelativeHumidity%</p></div>
+                <div>Wind <p>@currentWeather.WindSpeed <span class="wind-details">mph @currentWeather.WindDirection</span></p></div>
+            </div>
+            <MLWeatherCam />
+        </div>
+    </div>
+}
+
+
+@code {
+    WeatherResponse currentWeather;
+    string temperatureUnit = "F";
+
+    CancellationTokenSource streamingWeatherCTS = new CancellationTokenSource();
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentWeather = await WeatherForecastService.GetWeather();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _ = GetWeatherUpdates();
+        }
+    }
+
+    async Task GetWeatherUpdates()
+    {
+        await foreach (var weatherResponse in WeatherForecastService.GetStreamingWeather(streamingWeatherCTS.Token))
+        {
+            currentWeather = weatherResponse;
+            StateHasChanged();
+        }
+    }
+
+    string GetBackgroundClass()
+    {
+        if (currentWeather == null)
+        {
+            return string.Empty;
+        }
+        else if (!currentWeather.IsDayTime)
+        {
+            return "night";
+        }
+        else if (currentWeather.Temperature > 60)
+        {
+            return "warm";
+        }
+        else
+        {
+            return "cold";
+        }
+    }
+
+    void SwitchTemperatureUnit()
+    {
+        temperatureUnit = temperatureUnit == "F" ? "C" : "F";
+    }
+
+    float GetTemperature()
+        => temperatureUnit == "F" ? currentWeather.Temperature : TemperatureAsCelsius(currentWeather.Temperature);
+
+    float TemperatureAsCelsius(float f)
+        => (float)Math.Round((f - 23f) / 1.8f);
+
+    string GetTimeToDisplay()
+        => currentWeather.RetrievedTime.ToDateTimeOffset().ToLocalTime().ToString("T");
+
+    void IDisposable.Dispose()
+    {
+        streamingWeatherCTS.Cancel();
+    }
+}

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <OutputPath>bin\$(Configuration)</OutputPath>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <LangVersion>preview</LangVersion>
+    <DefaultItemExcludes>${DefaultItemExcludes};node_modules\**;package-lock.json</DefaultItemExcludes>
+    <RazorLangVersion>3.0</RazorLangVersion>
+    <RestoreAdditionalProjectSources>
+      $(RestoreAdditionalProjectSources);
+      .\packages;
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>BlazorWeather</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Electron" Version="0.1.0-preview1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.0" />
+  </ItemGroup>
+
+  <Target Name="EnsureNpmRestored" BeforeTargets="CoreBuild" Condition="!Exists('node_modules')">
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec Command="npm install" />
+  </Target>
+
+  <ItemGroup>
+    <None Remove="packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorWeather.Core\BlazorWeather.Core.csproj" />
+    <ProjectReference Include="..\WeatherServiceML.Abstractions\WeatherServiceML.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

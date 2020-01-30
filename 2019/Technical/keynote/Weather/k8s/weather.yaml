@@ -1,0 +1,40 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: weather
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: weather
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+      - name: weather
+        image: <YourImageName>
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5050
+        volumeMounts:
+        - name: token
+          mountPath: "/etc/token"
+          readOnly: true
+      volumes:
+      - name: token
+        secret:
+          secretName: accuweathertoken
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: weather
+spec:
+  type: ClusterIP
+  ports:
+    - name: h2c
+      protocol: TCP
+      port: 5050
+  selector:
+    app: weather

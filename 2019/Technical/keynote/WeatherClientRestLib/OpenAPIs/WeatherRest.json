@@ -1,0 +1,109 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WeatherApi",
+    "version": "v1"
+  },
+  "paths": {
+    "/json": {
+      "get": {
+        "tags": [
+          "Weather"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Timestamp": {
+        "type": "object",
+        "properties": {
+          "seconds": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "nanos": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherResponse": {
+        "type": "object",
+        "properties": {
+          "weatherText": {
+            "type": "string"
+          },
+          "weatherIcon": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "weartherUri": {
+            "type": "string"
+          },
+          "isDayTime": {
+            "type": "boolean"
+          },
+          "temperature": {
+            "type": "number",
+            "format": "float"
+          },
+          "relativeHumidity": {
+            "type": "number",
+            "format": "float"
+          },
+          "windSpeed": {
+            "type": "number",
+            "format": "float"
+          },
+          "uvIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pressure": {
+            "type": "number",
+            "format": "float"
+          },
+          "past6HourMin": {
+            "type": "number",
+            "format": "float"
+          },
+          "past6HourMax": {
+            "type": "number",
+            "format": "float"
+          },
+          "retrievedTime": {
+            "$ref": "#/components/schemas/Timestamp"
+          },
+          "windDirection": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

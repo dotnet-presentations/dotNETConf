@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>weatherclient</Title>
+			<Shortcut>weatherclient</Shortcut>
+			<Description>Code snippet for weather client</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+
+			<Code Language="csharp"><![CDATA[using Google.Protobuf.WellKnownTypes;
+				using Grpc.Net.Client;
+				using System;
+				using System.Threading.Tasks;
+				using static Weather.Weather;
+				
+				namespace WeatherConsole
+				{
+					class Program
+					{
+						static async Task Main(string[] args)
+						{
+							var channel = GrpcChannel.ForAddress("https://localhost:5001/");
+				
+							var client = new WeatherClient(channel);
+				
+							var forecast = await client.GetWeatherAsync(new Empty());
+				
+							Console.WriteLine($$"{forecast.Temperature}");
+				
+							Console.WriteLine("Done");
+							Console.ReadLine();
+						}
+					}
+				}
+				]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
