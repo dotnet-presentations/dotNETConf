@@ -1,5 +1,5 @@
 # ".NET Conf: Focus on Blazor" Code & Slides
-[![](Creative/dotNETConf_800x266_email_eventInfo.png)](https://focus.dotnetconf.net)
+[![](../Creative/dotNETConf_800x266_email_eventInfo.png)](https://focus.dotnetconf.net)
 
 ## Here You Go!
 
