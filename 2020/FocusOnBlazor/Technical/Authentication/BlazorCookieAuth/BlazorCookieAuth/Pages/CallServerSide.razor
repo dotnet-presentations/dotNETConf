@@ -1,0 +1,32 @@
+﻿@page "/CallServerSide"
+@using BlazorCookieAuth.Controllers
+@using System.Net.Http
+@inject HttpClient Http
+@inject NavigationManager UriHelper
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<h3>Call Server Side</h3>
+<p>Current User: @CurrentUser.UserName</p>
+<p>IsAuthenticated: @CurrentUser.IsAuthenticated</p>
+<button class="btn btn-primary" @onclick="GetUser">Get User</button>
+@code {
+    UserModel CurrentUser = new UserModel();
+
+    async Task GetUser()
+    {
+        // Code courtesy from Oqtane.org (@sbwalker)
+        // We must pass the authentication cookie in server side requests
+        var authToken =
+        HttpContextAccessor.HttpContext.Request.Cookies[".AspNetCore.Cookies"];
+        if (authToken != null)
+        {
+            Http.DefaultRequestHeaders
+            .Add("Cookie", ".AspNetCore.Cookies=" + authToken);
+            // Call the server side controller
+            var url = UriHelper.ToAbsoluteUri("/api/User/GetUser");
+            var result = await Http.GetJsonAsync<UserModel>(url.ToString());
+            // Update the result
+            CurrentUser.UserName = result.UserName;
+            CurrentUser.IsAuthenticated = result.IsAuthenticated;
+        }
+    }
+}
