@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
+using System.Runtime.InteropServices;
 
 namespace Weather
 {
@@ -54,8 +55,15 @@ namespace Weather
                              });
                              options.Listen(IPAddress.Any, 5001, listenOptions =>
                              {
-                                 listenOptions.UseHttps();
-                                 listenOptions.Protocols = HttpProtocols.Http1AndHttp2;
+                                 if(RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+                                 {
+                                     listenOptions.Protocols = HttpProtocols.Http2;
+                                 }
+                                 else
+                                 {
+                                     listenOptions.UseHttps();
+                                     listenOptions.Protocols = HttpProtocols.Http1AndHttp2;
+                                 }
                              });
                          }
                      });
