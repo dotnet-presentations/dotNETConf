@@ -4,7 +4,9 @@
 ## Here You Go!
 
 This part of the repo contains the links to the slides and code samples from our speakers. We hope you enjoy them and happy coding!
- - Welcome to Blazor - [https://github.com/danroth27/bestforyourecipes](https://github.com/danroth27/bestforyourecipes)
+ - Welcome to Blazor 
+    - [Welcome to Blazor.pptx](Roth-Welcome-to-Blazor.pptx)
+    - [https://github.com/danroth27/bestforyourecipes](https://github.com/danroth27/bestforyourecipes)
  - Blazor Future Features - [https://github.com/SteveSandersonMS/presentation-2020-01-DotNetConf](https://github.com/SteveSandersonMS/presentation-2020-01-DotNetConf)
  - Routing A-Z - [https://github.com/chrissainty/Talks-DotNetConf-01-2020](https://github.com/chrissainty/Talks-DotNetConf-01-2020)
  - Create great UX with Blazor 
