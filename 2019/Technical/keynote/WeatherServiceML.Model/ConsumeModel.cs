@@ -19,8 +19,14 @@ namespace WeatherServiceML.Model
             // Create new MLContext
             MLContext mlContext = new MLContext();
 
+            // Register NormalizeMapping
+            mlContext.ComponentCatalog.RegisterAssembly(typeof(NormalizeMapping).Assembly);
+
+            // Register LabelMapping
+            mlContext.ComponentCatalog.RegisterAssembly(typeof(LabelMapping).Assembly);
+
             // Load model & create prediction engine
-            string modelPath = AppDomain.CurrentDomain.BaseDirectory + "MLModel.zip";
+            string modelPath = @"C:\Users\brachtma\AppData\Local\Temp\MLVSTools\WeatherServiceML\WeatherServiceML.Model\MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
