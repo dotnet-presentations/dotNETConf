@@ -10,12 +10,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="MLModel.zip">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Remove="MLModel.zip" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="bestModel.onnx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   
+  <ItemGroup>
+    <Content Include="MLModel.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
