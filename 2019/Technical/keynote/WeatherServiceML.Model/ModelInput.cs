@@ -10,15 +10,7 @@ namespace WeatherServiceML.Model
         public string Label { get; set; }
 
 
-        [ColumnName("Title"), LoadColumn(1)]
-        public float Title { get; set; }
-
-
-        [ColumnName("URL"), LoadColumn(2)]
-        public float URL { get; set; }
-
-
-        [ColumnName("ImageSource"), LoadColumn(3)]
+        [ColumnName("ImageSource"), LoadColumn(1)]
         public string ImageSource { get; set; }
 
 
