@@ -10,4 +10,11 @@
     <ProjectReference Include="..\WeatherServiceML\WeatherServiceML.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BlazorPWA.MSBuild" Version="1.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>

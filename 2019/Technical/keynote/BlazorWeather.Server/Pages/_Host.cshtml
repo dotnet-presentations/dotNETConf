@@ -1,4 +1,4 @@
-﻿@page "/"
+@page "/"
 @namespace BlazorWeather.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
@@ -10,6 +10,8 @@
     <title>Weather.Blazor</title>
     <base href="~/" />
     <link href="_content/BlazorWeather.Core/weather.css" rel="stylesheet" />
+    <script src="/ServiceWorkerRegister.js"></script>
+    <link href="/manifest.json" rel="manifest"/>
 </head>
 <body>
     @(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))
