@@ -1,4 +1,5 @@
 # ".NET Conf: Focus on Xamarin" is a wrap!
+[![](Creative/dotNETConf_800x266_email_eventInfo.png)](https://focus.dotnetconf.net)
 
 ## Thank you!
 
