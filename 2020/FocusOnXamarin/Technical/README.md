@@ -35,9 +35,9 @@ Xamarin developers are creating beautiful mobile apps faster than ever. The Xama
 Join Maddy Leger, Xamarin Program Manager, to learn about all of the ways to become even more productive writing Xamarin apps with some of the latest and greatest tools, like XAML Hot Reload for Xamarin.Forms, the XAML editor on Visual Studio for Mac, and more!
 
    - Speaker: [Maddy Leger](https://www.twitter.com/maddyleger1) 
-   - Slides
+   - [Slides](https://github.com/maddyleger1/dotNETConf/blob/master/2020/FocusOnXamarin/Technical/MaddyLeger_Xamarin%20productivity%20to%20the%20max.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Productivity-to-the-Max) | [YouTube](https://youtu.be/65G7pop59XU)
-   - Code
+   - Code - File > New Xamarin.Forms Shell app!
    
 ### Building Beautiful Apps with Xamarin.Forms 
 What makes a UI beautiful, and how can we achieve it using Xamarin.Forms? This session tries to answer that question by showing you the different elements that go into crafting a beautiful UI and how you can use them to their full potential while also sneaking in some tips and tricks.
