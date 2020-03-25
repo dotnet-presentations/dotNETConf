@@ -10,7 +10,7 @@ Join Maddy, David, and Amanda as they kick off a day full of Xamarin and .NET. F
    - Speakers: [Amanda Silver](https://twitter.com/amandaksilver) | [Maddy Leger](https://twitter.com/maddyleger1) | [David Ortinau](https://twitter.com/davidortinau)
    - [Slides - PDF](DotnetConf-Xamarin_Keynote.pdf)   
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-All-The-Things) | [YouTube](https://youtu.be/tRNOLKq4_jo)
-   - [Code](https://github.com/maddyleger1/MonkeysRefresh)
+   - [Code](https://github.com/maddyleger1/MonkeysRefresh/tree/xamarin-net-conf)
    
    
 ### Visualize Your Data (CollectionView, CarouselView, & Beyond)
