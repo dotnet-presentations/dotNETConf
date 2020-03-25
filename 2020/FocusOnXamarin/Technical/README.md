@@ -4,13 +4,130 @@
 
 This part of the repo contains the links to the slides and code samples from our speakers. We will add more content as it comes in from the presenters. We hope you enjoy them and happy coding!
 
-- Keynote: Xamarin all the Things
-   - [DotnetConf-Xamarin_Keynote.pdf](DotnetConf-Xamarin_Keynote.pdf)   
-- Building Beautiful Apps with Xamarin.Forms 
-   - [StevenThewissen_BuildingBeautifulAppsWithXamarinForms.pdf](StevenThewissen_BuildingBeautifulAppsWithXamarinForms.pdf)
-- Developing Performant Xamarin Apps 
-   - [SweekySatpathy-XamarinPerformant.pdf](SweekySatpathy-XamarinPerformant.pdf)
-   - [SweekySatpathy-XamarinPerformant.pptx](SweekySatpathy-XamarinPerformant.pptx)
+### Keynote: Xamarin all the Things
+Join Maddy, David, and Amanda as they kick off a day full of Xamarin and .NET. Find out what is new and awesome for Xamarin developers to build stunning cross-platform mobile apps with .NET and Visual Studio. You do not want to miss out!
+
+   - Speakers: [Amanda Silver](https://twitter.com/amandaksilver) | [Maddy Leger](https://twitter.com/maddyleger1) | [David Ortinau](https://twitter.com/davidortinau)
+   - [Slides - PDF](DotnetConf-Xamarin_Keynote.pdf)   
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-All-The-Things) | [YouTube](https://youtu.be/tRNOLKq4_jo)
+   - [Code](https://github.com/maddyleger1/MonkeysRefresh)
+   
+   
+### Visualize Your Data (CollectionView, CarouselView, & Beyond)
+A big part of any app is visualizing data. With recent versions of Xamarin.Forms a lot of new controls have been added and updated with controls to do just that. In this session you will learn what these controls are, how they can be used and more importantly; how to use them to make your app look gorgeous.
+
+   - Speakers: [Javier Suárez Ruiz](https://twitter.com/jsuarezruiz) } [Gerald Versluis](https://twitter.com/jfversluis)
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Visualize-Your-Data-CollectionView-CarouselView--Beyond) | [YouTube](https://youtu.be/n9uNCRaH00M)
+   - Code
+   
+### Testing Your Xamarin Apps
+Before shipping your applications, testing is a must if you want to ensure the best quality. And don't think only about basic Unit tests but also UI Tests in order to have the best application. We will see some tips on writing and running your tests in order to have all green flags.
+
+   - Speaker: [Codrina Merigo](https://twitter.com/_Codrina_) 
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Testing-Your-Xamarin-Apps) | [YouTube](https://youtu.be/HOfmteIoSV4)
+   - Code
+   
+### Xamarin Productivity to the Max
+Xamarin developers are creating beautiful mobile apps faster than ever. The Xamarin tooling team has been hard at work making improvements to every aspect of the .NET mobile development process. We've made it more intuitive to write code, faster to build and deploy your apps, and easier to iterate on your UIs with a wide variety of tools and features.
+
+Join Maddy Leger, Xamarin Program Manager, to learn about all of the ways to become even more productive writing Xamarin apps with some of the latest and greatest tools, like XAML Hot Reload for Xamarin.Forms, the XAML editor on Visual Studio for Mac, and more!
+
+   - Speaker: [Maddy Leger](https://www.twitter.com/maddyleger1) 
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Productivity-to-the-Max) | [YouTube](https://youtu.be/65G7pop59XU)
+   - Code
+   
+### Building Beautiful Apps with Xamarin.Forms 
+What makes a UI beautiful, and how can we achieve it using Xamarin.Forms? This session tries to answer that question by showing you the different elements that go into crafting a beautiful UI and how you can use them to their full potential while also sneaking in some tips and tricks.
+
+   - Speaker: [Steven Thewissen](https://twitter.com/devnl)
+   - [Slides](StevenThewissen_BuildingBeautifulAppsWithXamarinForms.pdf)
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Building-Beautiful-Apps-with-XamarinForms) | [YouTube](https://youtu.be/z4LiPa8ixyQ)
+   - [Code](https://github.com/sthewissen/FocusOnXamarin)
+   
+### Going Reactive with Reactive Extensions & UI
+Mobile developers have some unique constraints that we have to solve for.  We develop in a world where we respond to events, fire asynchronous tasks all on a device that may not have the resources available to complete these tasks. 
+
+This talk will show you why you want to use Reactive Extensions and ReactiveUI to solve some of those concerns in a declarative manner, that makes it easier for you to focus on business value, rather than technical debt.
+
+   - Speaker: [Rodney Littles II](https://twitter.com/rlittlesii) 
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Going-Reactive-with-Reactive-Extensions--UI) | [YouTube](https://youtu.be/VoPtj6n_wz0)
+   - Code
+   
+### Spectacular Components for Xamarin Apps
+Looking for that perfect control or functionality for your Xamarin app? The amazing Xamarin community has you covered. James will be showing off some spectacular controls and libraries directly from the creators themselves! There is something for everyone in this action packed session.
+
+   - Speaker: [James Montemagno](https://www.twitter.com/jamesmontemagno)
+   - Slides: 
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Spectacular-Components-for-Xamarin-Apps) | [YouTube](https://youtu.be/AB9PycndUbA)
+   - Code
+   
+### Xamarin Mobile Development for ASP.NET Developers
+Do you write ASP.NET Core websites? Ever been curious about mobile? In this talk, Luce will introduce you to Xamarin, allowing you to see how your love of C# can be used to bring native experiences to a device millions use every day. With side-by-side feature implementation comparisons and a guide to what you get from File -> New, by the end of this talk you should feel more empowered to give it a go!
+
+   - Speaker: [Luce Carter](https://twitter.com/LuceCarter1)
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Mobile-Development-for-ASPNET-Developers) | [YouTube]()
+   - Code
+   
+### Developing Dual-screen Experiences with Xamarin
+Join Guy & Craig as they show off how to get started with Xamarin and building dual-screen experiences for Windows 10x dual-screen devices and Surface Duo with Xamrain.Forms. They will talk through new controls and APIs just released to help you build beautiful experiences for these devices.
+
+   - Speakers: [Craig Dunn](https://twitter.com/conceptdev) | [Guy Merin](https://twitter.com/gmerin)
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Dual-screen-Experiences-with-Xamarin) | [YouTube]()
+   - Code: [Xamarin TV](https://github.com/xamarin/app-xamarintv)
+   
+### All Things Xamarin.Forms Shell
+Have you ever felt overwhelmed by all the different pages, rolled your eyes at the navigation page, and thought to yourself `this can't be the only way to do this when trying to customize something as simple as the navigation bar? If any of these things sound like you, then you're going to love the new Xamarin.Forms Shell.
+
+Shell is the new replacement for every single one of your Xamarin.Forms pages. It provides out-of-the-box infrastructure to deliver the features of all existing pages, plus customization,  simplified navigation, and additional layers of customization. In this session, we'll look at how quickly you can get going with Shell and then how easy it is to customize for your designs and scenarios.
+
+   - Speaker: [Shane Neuville](https://twitter.com/pureween)
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/All-Things-XamarinForms-Shell) | [YouTube]()
+   - Code
+   
+### Building & Marketing Award Winning Xamarin Apps
+Learn what went into building two award-winning apps that demonstrate Xamarin's ability to enable best-in-class designs regardless of platform. Covering the entire development cycle, hopefully my story will provide you with the knowledge & tips to achieve similar.
+
+   - Speaker: [Bardi Golriz](https://twitter.com/mtrostyle)
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Building--Marketing-Award-Winning-Xamarin-Apps) | [YouTube]()
+   - Links: [Appy Weather](https://play.google.com/store/apps/details?id=appyweather.appyweather) | [Ruff](https://play.google.com/store/apps/details?id=ruff.ruff) | [Customer Showcase](https://devblogs.microsoft.com/xamarin/customer-showcase-third-culture-apps/)
+   
+### Developing Accessible Xamarin Apps
+As you know Xamarin and Xamarin.Forms are the best way to delivery beautiful performant cross-platform apps using all the power of the .NET platform, but what about impacting all audiences?
+
+It's not a surprise, but Xamarin also helps you delivery totally accessible apps out-of-the-box as using platform native controls as making easier to use the platform specific APIs to achieve rich User Interfaces designed to all kind of disabilities.
+
+In this session I'll show all this possibility and guide you in the right direction of making awesome accessible apps.
+
+   - Speaker: [Alexandre Santos Costa](https://twitter.com/magoolation)
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Accessible-Xamarin-Apps) | [YouTube]()
+   - Code
+   - Links: [Accessibility Documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/accessibility/)
+   
+### Stitching Together a Mobile Backend for your App
+There are so many questions about mobile cloud development that it can make your head spin! How does compute fit in with data and how does that integrate with identity? What is compute anyway? And what about that cool real-time stuff, how do I do that?
+
+This session is going to give you a whirlwind tour of how you can make use of several different Azure services to build out a pretty sweet mobile backend.
+
+   - Speaker: [Matt Soucoup](https://twitter.com/codemillmatt) 
+   - Slides
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Stitching-Together-a-Mobile-Backend-for-Your-App) | [YouTube]()
+   - Code
+   
+### Developing Performant Xamarin Apps 
+Don't let your app fall into potential performance traps!  In this session, we'll learn how to avoid common issues and make good decisions when architecting your app. We'll discuss different techniques to handle performance issues and some tips on avoiding them.
+
+   - Speaker: [Sweeky Satpathy](https://twitter.com/SweekritiS) 
+   - Slides: [PDF](SweekySatpathy-XamarinPerformant.pdf) | [Power Point]SweekySatpathy-XamarinPerformant.pptx()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Performant-Xamarin-Apps) | [YouTube]()
 
 
 ## Stay in touch
