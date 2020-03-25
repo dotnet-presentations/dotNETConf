@@ -10,7 +10,7 @@ A huge **THANK YOU** to all who tuned in live, asked questions, and participated
 Just getting started? Head to [www.xamarin.com](https://www.xamarin.com).
 
 ## Technical
-Session decks and demos that were shown can be found in the `Technical` folder. 
+Session decks and demos that were shown can be found in the `[Technical](Technical)` folder. 
 
 ## Stay in touch
 [Subscribe to notifications](http://eepurl.com/gvEhgX) to keep up with .NET Conf news and join the conversation [#dotNETConf](https://twitter.com/search?q=%23dotnetconf).
