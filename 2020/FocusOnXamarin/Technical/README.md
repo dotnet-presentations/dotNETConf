@@ -69,7 +69,7 @@ Looking for that perfect control or functionality for your Xamarin app? The amaz
 Do you write ASP.NET Core websites? Ever been curious about mobile? In this talk, Luce will introduce you to Xamarin, allowing you to see how your love of C# can be used to bring native experiences to a device millions use every day. With side-by-side feature implementation comparisons and a guide to what you get from File -> New, by the end of this talk you should feel more empowered to give it a go!
 
    - Speaker: [Luce Carter](https://twitter.com/LuceCarter1)
-   - Slides
+   - [Slides](Luce Carter - Xamarin for ASP.Net Developers.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Mobile-Development-for-ASPNET-Developers) | [YouTube]()
    - Code
    
