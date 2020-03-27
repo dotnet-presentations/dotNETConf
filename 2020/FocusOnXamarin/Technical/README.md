@@ -126,7 +126,7 @@ This session is going to give you a whirlwind tour of how you can make use of se
 Don't let your app fall into potential performance traps!  In this session, we'll learn how to avoid common issues and make good decisions when architecting your app. We'll discuss different techniques to handle performance issues and some tips on avoiding them.
 
    - Speaker: [Sweeky Satpathy](https://twitter.com/SweekritiS) 
-   - Slides: [PDF](SweekySatpathy-XamarinPerformant.pdf) | [Power Point]SweekySatpathy-XamarinPerformant.pptx()
+   - Slides: [PDF](SweekySatpathy-XamarinPerformant.pdf) | [Power Point](SweekySatpathy-XamarinPerformant.pptx)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Performant-Xamarin-Apps) | [YouTube](https://www.youtube.com/watch?v=qrCBN3JUasg)
 
 
