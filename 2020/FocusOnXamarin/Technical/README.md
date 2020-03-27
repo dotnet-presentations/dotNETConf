@@ -17,7 +17,7 @@ Join Maddy, David, and Amanda as they kick off a day full of Xamarin and .NET. F
 A big part of any app is visualizing data. With recent versions of Xamarin.Forms a lot of new controls have been added and updated with controls to do just that. In this session you will learn what these controls are, how they can be used and more importantly; how to use them to make your app look gorgeous.
 
    - Speakers: [Javier Suárez Ruiz](https://twitter.com/jsuarezruiz) } [Gerald Versluis](https://twitter.com/jfversluis)
-   - [Slides[(Visualize%20Your%20Data%20(CollectionView%2C%20CarouselView%2C%20%26%20Beyond).pdf)
+   - [Slides](Visualize%20Your%20Data%20(CollectionView%2C%20CarouselView%2C%20%26%20Beyond).pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Visualize-Your-Data-CollectionView-CarouselView--Beyond) | [YouTube](https://youtu.be/n9uNCRaH00M)
    - Code
    
