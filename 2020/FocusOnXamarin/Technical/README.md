@@ -17,7 +17,7 @@ Join Maddy, David, and Amanda as they kick off a day full of Xamarin and .NET. F
 A big part of any app is visualizing data. With recent versions of Xamarin.Forms a lot of new controls have been added and updated with controls to do just that. In this session you will learn what these controls are, how they can be used and more importantly; how to use them to make your app look gorgeous.
 
    - Speakers: [Javier Suárez Ruiz](https://twitter.com/jsuarezruiz) } [Gerald Versluis](https://twitter.com/jfversluis)
-   - Slides
+   - [Slides[(Visualize%20Your%20Data%20(CollectionView%2C%20CarouselView%2C%20%26%20Beyond).pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Visualize-Your-Data-CollectionView-CarouselView--Beyond) | [YouTube](https://youtu.be/n9uNCRaH00M)
    - Code
    
@@ -35,7 +35,7 @@ Xamarin developers are creating beautiful mobile apps faster than ever. The Xama
 Join Maddy Leger, Xamarin Program Manager, to learn about all of the ways to become even more productive writing Xamarin apps with some of the latest and greatest tools, like XAML Hot Reload for Xamarin.Forms, the XAML editor on Visual Studio for Mac, and more!
 
    - Speaker: [Maddy Leger](https://www.twitter.com/maddyleger1) 
-   - [Slides](https://github.com/maddyleger1/dotNETConf/blob/master/2020/FocusOnXamarin/Technical/MaddyLeger_Xamarin%20productivity%20to%20the%20max.pdf)
+   - [Slides](MaddyLeger_Xamarin%20productivity%20to%20the%20max.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Productivity-to-the-Max) | [YouTube](https://youtu.be/65G7pop59XU)
    - Code - File > New Xamarin.Forms Shell app!
    
@@ -70,15 +70,15 @@ Do you write ASP.NET Core websites? Ever been curious about mobile? In this talk
 
    - Speaker: [Luce Carter](https://twitter.com/LuceCarter1)
    - [Slides](Luce Carter - Xamarin for ASP.Net Developers.pdf)
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Mobile-Development-for-ASPNET-Developers) | [YouTube]()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Xamarin-Mobile-Development-for-ASPNET-Developers) | [YouTube](https://www.youtube.com/watch?v=Uv5Jp64o3Sc)
    - Code
    
 ### Developing Dual-screen Experiences with Xamarin
 Join Guy & Craig as they show off how to get started with Xamarin and building dual-screen experiences for Windows 10x dual-screen devices and Surface Duo with Xamrain.Forms. They will talk through new controls and APIs just released to help you build beautiful experiences for these devices.
 
    - Speakers: [Craig Dunn](https://twitter.com/conceptdev) | [Guy Merin](https://twitter.com/gmerin)
-   - Slides
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Dual-screen-Experiences-with-Xamarin) | [YouTube]()
+   - [Slides](CraigDunn_XamarinDualScreen.pdf)
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Dual-screen-Experiences-with-Xamarin) | [YouTube](https://www.youtube.com/watch?v=Tcc1KwRtKqU)
    - Code: [Xamarin TV](https://github.com/xamarin/app-xamarintv)
    
 ### All Things Xamarin.Forms Shell
@@ -88,7 +88,7 @@ Shell is the new replacement for every single one of your Xamarin.Forms pages. I
 
    - Speaker: [Shane Neuville](https://twitter.com/pureween)
    - Slides
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/All-Things-XamarinForms-Shell) | [YouTube]()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/All-Things-XamarinForms-Shell) | [YouTube](https://www.youtube.com/watch?v=scpNRhaXfXY)
    - Code
    
 ### Building & Marketing Award Winning Xamarin Apps
@@ -96,7 +96,7 @@ Learn what went into building two award-winning apps that demonstrate Xamarin's 
 
    - Speaker: [Bardi Golriz](https://twitter.com/mtrostyle)
    - Slides
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Building--Marketing-Award-Winning-Xamarin-Apps) | [YouTube]()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Building--Marketing-Award-Winning-Xamarin-Apps) | [YouTube](https://www.youtube.com/watch?v=yj9PdYXy3ZU)
    - Links: [Appy Weather](https://play.google.com/store/apps/details?id=appyweather.appyweather) | [Ruff](https://play.google.com/store/apps/details?id=ruff.ruff) | [Customer Showcase](https://devblogs.microsoft.com/xamarin/customer-showcase-third-culture-apps/)
    
 ### Developing Accessible Xamarin Apps
@@ -108,7 +108,7 @@ In this session I'll show all this possibility and guide you in the right direct
 
    - Speaker: [Alexandre Santos Costa](https://twitter.com/magoolation)
    - Slides
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Accessible-Xamarin-Apps) | [YouTube]()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Accessible-Xamarin-Apps) | [YouTube](https://www.youtube.com/watch?v=aXidopaB46o)
    - Code
    - Links: [Accessibility Documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/accessibility/)
    
@@ -119,7 +119,7 @@ This session is going to give you a whirlwind tour of how you can make use of se
 
    - Speaker: [Matt Soucoup](https://twitter.com/codemillmatt) 
    - Slides
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Stitching-Together-a-Mobile-Backend-for-Your-App) | [YouTube]()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Stitching-Together-a-Mobile-Backend-for-Your-App) | [YouTube](https://www.youtube.com/watch?v=T4XaoXWzcQE)
    - Code
    
 ### Developing Performant Xamarin Apps 
@@ -127,7 +127,7 @@ Don't let your app fall into potential performance traps!  In this session, we'l
 
    - Speaker: [Sweeky Satpathy](https://twitter.com/SweekritiS) 
    - Slides: [PDF](SweekySatpathy-XamarinPerformant.pdf) | [Power Point]SweekySatpathy-XamarinPerformant.pptx()
-   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Performant-Xamarin-Apps) | [YouTube]()
+   - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Performant-Xamarin-Apps) | [YouTube](https://www.youtube.com/watch?v=qrCBN3JUasg)
 
 
 ## Stay in touch
