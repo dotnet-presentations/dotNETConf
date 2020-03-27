@@ -9,6 +9,9 @@ A huge **THANK YOU** to all who tuned in live, asked questions, and participated
 
 Just getting started? Head to [www.xamarin.com](https://www.xamarin.com).
 
+## Recordings
+Watch all the sessions on demand on [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oW4W_qQr_dlnKtAfTB0Ezl9) or [Channel9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin).
+
 ## Technical
 Session decks and demos that were shown can be found in the [Technical](Technical) folder. 
 
