@@ -25,9 +25,9 @@ A big part of any app is visualizing data. With recent versions of Xamarin.Forms
 Before shipping your applications, testing is a must if you want to ensure the best quality. And don't think only about basic Unit tests but also UI Tests in order to have the best application. We will see some tips on writing and running your tests in order to have all green flags.
 
    - Speaker: [Codrina Merigo](https://twitter.com/_Codrina_) 
-   - Slides
+   - [Slides](https://github.com/codrinamerigo/ladybug/blob/branch1/DotnetConf-Xamarin_PresentationCodrina.pptx)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Testing-Your-Xamarin-Apps) | [YouTube](https://youtu.be/HOfmteIoSV4)
-   - Code
+   - [Code](https://github.com/codrinamerigo/ladybug)
    
 ### Xamarin Productivity to the Max
 Xamarin developers are creating beautiful mobile apps faster than ever. The Xamarin tooling team has been hard at work making improvements to every aspect of the .NET mobile development process. We've made it more intuitive to write code, faster to build and deploy your apps, and easier to iterate on your UIs with a wide variety of tools and features.
