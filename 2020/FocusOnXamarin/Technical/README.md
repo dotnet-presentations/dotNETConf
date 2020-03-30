@@ -4,6 +4,8 @@
 
 This part of the repo contains the links to the slides and code samples from our speakers. We will add more content as it comes in from the presenters. We hope you enjoy them and happy coding!
 
+You will find PDF versions for each presentation here and can find the full [PowerPoint decks on OneDrive](https://1drv.ms/u/s!AkidfXMX2kfFjOkJI3HVZ0_wMOIcUw?e=GdVpX0).
+
 ### Keynote: Xamarin all the Things
 Join Maddy, David, and Amanda as they kick off a day full of Xamarin and .NET. Find out what is new and awesome for Xamarin developers to build stunning cross-platform mobile apps with .NET and Visual Studio. You do not want to miss out!
 
@@ -19,7 +21,7 @@ A big part of any app is visualizing data. With recent versions of Xamarin.Forms
    - Speakers: [Javier Suárez Ruiz](https://twitter.com/jsuarezruiz) } [Gerald Versluis](https://twitter.com/jfversluis)
    - [Slides](Visualize%20Your%20Data%20(CollectionView%2C%20CarouselView%2C%20%26%20Beyond).pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Visualize-Your-Data-CollectionView-CarouselView--Beyond) | [YouTube](https://youtu.be/n9uNCRaH00M)
-   - Code
+   - Code: [Main Demo](https://github.com/jsuarezruiz/FocusOnXamarin) | [Xamarin.Forms Good Looking UI GitHub](https://github.com/jsuarezruiz/xamarin-forms-goodlooking-UI)
    
 ### Testing Your Xamarin Apps
 Before shipping your applications, testing is a must if you want to ensure the best quality. And don't think only about basic Unit tests but also UI Tests in order to have the best application. We will see some tips on writing and running your tests in order to have all green flags.
@@ -61,9 +63,10 @@ This talk will show you why you want to use Reactive Extensions and ReactiveUI t
 Looking for that perfect control or functionality for your Xamarin app? The amazing Xamarin community has you covered. James will be showing off some spectacular controls and libraries directly from the creators themselves! There is something for everyone in this action packed session.
 
    - Speaker: [James Montemagno](https://www.twitter.com/jamesmontemagno)
-   - Slides: 
+   - [Slides](https://1drv.ms/u/s!AkidfXMX2kfFjOkJI3HVZ0_wMOIcUw?e=GdVpX0)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Spectacular-Components-for-Xamarin-Apps) | [YouTube](https://youtu.be/AB9PycndUbA)
-   - Code
+   - Code: [Xamarin.Essentials](https://github.com/xamarin/essentials) | [Expressive](https://github.com/bijington/expressive) | [MvvmAtom](https://github.com/sameerkapps/MvvmAtom) | [HttpTracer](https://github.com/BSiLabs/HttpTracer) | [AnyBind](https://github.com/AlexKven/AnyBind) | [TinyInsights](https://github.com/TinyStuff/TinyInsights) | [MagicGradient](https://github.com/mgierlasinski/MagicGradients) | [Xamarin.Forms Color Picker](https://github.com/UdaraAlwis/XFColorPickerControl) | [XamAnimation](https://github.com/jsuarezruiz/Xamanimation) | [Bottom Sheet Control](https://github.com/DIPSAS/DIPS.Xamarin.UI) | [Xamlly Controls](https://github.com/mshwf/Xamlly) | [PancakeView](https://github.com/sthewissen/Xamarin.Forms.PancakeView) | [DebugRainbows](https://github.com/sthewissen/Xamarin.Forms.DebugRainbows) | [Sharpnado](https://github.com/roubachof/Sharpnado.Presentation.Forms) | [TaskLoaderView](https://github.com/roubachof/Sharpnado.TaskLoaderView) | [ResizetizerNT](https://github.com/Redth/ResizetizerNT) | [Shiny](https://github.com/shinyorg/shiny)
+
    
 ### Xamarin Mobile Development for ASP.NET Developers
 Do you write ASP.NET Core websites? Ever been curious about mobile? In this talk, Luce will introduce you to Xamarin, allowing you to see how your love of C# can be used to bring native experiences to a device millions use every day. With side-by-side feature implementation comparisons and a guide to what you get from File -> New, by the end of this talk you should feel more empowered to give it a go!
