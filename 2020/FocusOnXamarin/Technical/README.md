@@ -55,9 +55,9 @@ Mobile developers have some unique constraints that we have to solve for.  We de
 This talk will show you why you want to use Reactive Extensions and ReactiveUI to solve some of those concerns in a declarative manner, that makes it easier for you to focus on business value, rather than technical debt.
 
    - Speaker: [Rodney Littles II](https://twitter.com/rlittlesii) 
-   - Slides
+   - [Slides](Going%20Reactive%20with%20Rx%20and%20Reactive%20UI.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Going-Reactive-with-Reactive-Extensions--UI) | [YouTube](https://youtu.be/VoPtj6n_wz0)
-   - Code
+   - [Code](https://github.com/RLittlesII/Reactive.Sandbox)
    
 ### Spectacular Components for Xamarin Apps
 Looking for that perfect control or functionality for your Xamarin app? The amazing Xamarin community has you covered. James will be showing off some spectacular controls and libraries directly from the creators themselves! There is something for everyone in this action packed session.
