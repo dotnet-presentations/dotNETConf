@@ -27,7 +27,7 @@ A big part of any app is visualizing data. With recent versions of Xamarin.Forms
 Before shipping your applications, testing is a must if you want to ensure the best quality. And don't think only about basic Unit tests but also UI Tests in order to have the best application. We will see some tips on writing and running your tests in order to have all green flags.
 
    - Speaker: [Codrina Merigo](https://twitter.com/_Codrina_) 
-   - [Slides](https://github.com/codrinamerigo/ladybug/blob/branch1/DotnetConf-Xamarin_PresentationCodrina.pptx)
+   - [Slides](Testing%20Xamarin%20Apps.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Testing-Your-Xamarin-Apps) | [YouTube](https://youtu.be/HOfmteIoSV4)
    - [Code](https://github.com/codrinamerigo/ladybug)
    
@@ -90,7 +90,7 @@ Have you ever felt overwhelmed by all the different pages, rolled your eyes at t
 Shell is the new replacement for every single one of your Xamarin.Forms pages. It provides out-of-the-box infrastructure to deliver the features of all existing pages, plus customization,  simplified navigation, and additional layers of customization. In this session, we'll look at how quickly you can get going with Shell and then how easy it is to customize for your designs and scenarios.
 
    - Speaker: [Shane Neuville](https://twitter.com/pureween)
-   - Slides
+   - [Slides](All%20Things%20Xamarin.Forms%20Shell.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/All-Things-XamarinForms-Shell) | [YouTube](https://www.youtube.com/watch?v=scpNRhaXfXY)
    - Code
    
@@ -121,9 +121,9 @@ There are so many questions about mobile cloud development that it can make your
 This session is going to give you a whirlwind tour of how you can make use of several different Azure services to build out a pretty sweet mobile backend.
 
    - Speaker: [Matt Soucoup](https://twitter.com/codemillmatt) 
-   - Slides
+   - [Slides](Stitching%20Together%20a%20Mobile%20Backend.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Stitching-Together-a-Mobile-Backend-for-Your-App) | [YouTube](https://www.youtube.com/watch?v=T4XaoXWzcQE)
-   - Code
+   - [Code](https://aka.ms/monkey-fresh)
    
 ### Developing Performant Xamarin Apps 
 Don't let your app fall into potential performance traps!  In this session, we'll learn how to avoid common issues and make good decisions when architecting your app. We'll discuss different techniques to handle performance issues and some tips on avoiding them.
