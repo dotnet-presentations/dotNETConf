@@ -110,9 +110,9 @@ It's not a surprise, but Xamarin also helps you delivery totally accessible apps
 In this session I'll show all this possibility and guide you in the right direction of making awesome accessible apps.
 
    - Speaker: [Alexandre Santos Costa](https://twitter.com/magoolation)
-   - Slides
+   - [Slides]Developing-accessible-Xamarin-apps.pdf)
    - Videos: [Channel 9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Xamarin/Developing-Accessible-Xamarin-Apps) | [YouTube](https://www.youtube.com/watch?v=aXidopaB46o)
-   - Code
+   - Code: [Xamarin Bookshelf](https://github.com/magoolation/xamarin.bookshelf)
    - Links: [Accessibility Documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/accessibility/)
    
 ### Stitching Together a Mobile Backend for your App
