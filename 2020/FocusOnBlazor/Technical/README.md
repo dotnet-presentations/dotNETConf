@@ -5,8 +5,7 @@
 
 This part of the repo contains the links to the slides and code samples from our speakers. We will add more content as it comes in from the presenters. We hope you enjoy them and happy coding!
 
-### Keynote: Xamarin all the Things
-Join Maddy, David, and Amanda as they kick off a day full of Xamarin and .NET. Find out what is new and awesome for Xamarin developers to build stunning cross-platform mobile apps with .NET and Visual Studio. You do not want to miss out!
+### Keynote: Welcome to Blazor
 
    - Speakers: [Daniel Roth](https://twitter.com/danroth27)
    - [Slides](Roth-Welcome-to-Blazor.pptx)   
