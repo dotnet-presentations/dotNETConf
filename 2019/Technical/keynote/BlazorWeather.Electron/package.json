@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^3.0.4",
+    "electron": "^7.2.4",
     "socket.io": "^2.0.3"
   }
 }
