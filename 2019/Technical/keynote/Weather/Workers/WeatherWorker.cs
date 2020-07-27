@@ -42,19 +42,16 @@ namespace Weather.Workers
                 {
                     DateTimeOffset? expiresHeader = null;
                     var token = _configuration["accuweathertoken"];
-                    if(!string.IsNullOrWhiteSpace(token))
+                    Forecast[] model = null;
+                    if (!string.IsNullOrWhiteSpace(token))
                     {
                         var client = _httpClientFactory.CreateClient("AccuWeather");
 
                         var response = await client.GetAsync($"{_configuration["weather:uri"]}/340247?apikey={_configuration["accuweathertoken"]}&details=true");
 
-                        var model = await JsonSerializer.DeserializeAsync<Forecast[]>(await response.Content.ReadAsStreamAsync());
+                        model = await JsonSerializer.DeserializeAsync<Forecast[]>(await response.Content.ReadAsStreamAsync());
 
                         _cache.Set(Constants.LATEST_FORECAST_CACHE_KEY, model.First());
-
-                        var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
-                        var temp = model.First().Temperature.Imperial.Value;
-                        var climateControlResponse = await client.GetAsync($"{_configuration["ClimateControl:uri"]}/{temp}");
 
                         expiresHeader = response.Content.Headers.Expires;
                     }
@@ -63,6 +60,19 @@ namespace Weather.Workers
                         Console.WriteLine("No accuweather key set, returning mock data.");
                     }
 
+                    // send the temperature to the climate control system
+                    var temp = (model != null && model.Any())
+                        ? model.First().Temperature.Imperial.Value
+                        : new Random().Next(50,100);
+
+                    var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
+
+                    var uri = $"{_configuration["ClimateControl:uri"]}{temp}";
+
+                    _logger.LogInformation($"Sending temp of {temp} to {uri}");
+
+                    var climateControlResponse = await climateControlClient.GetAsync(uri);
+
                     //Honoring the expires time
                     if (expiresHeader.HasValue)
                     {
@@ -70,7 +80,8 @@ namespace Weather.Workers
                     }
                     else
                     {
-                        await Task.Delay(TimeSpan.FromMinutes(2));
+                        //await Task.Delay(TimeSpan.FromMinutes(2));
+                        await Task.Delay(TimeSpan.FromSeconds(10));
                     }
                 }
                 catch (Exception ex)
