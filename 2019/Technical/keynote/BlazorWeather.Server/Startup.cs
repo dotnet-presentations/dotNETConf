@@ -32,7 +32,9 @@ namespace BlazorWeather
             services.AddServerSideBlazor();
             services.AddGrpcWeatherForecastService(options =>
             {
-                options.Address = new Uri(Configuration["WeatherServiceUri"]);
+                //options.Address = new Uri(Configuration["WeatherServiceUri"]);
+                options.Address = Configuration.GetServiceUri("weather");
+                Console.WriteLine($"Backend URL is {options.Address}");
             });
             services.AddScoped<IWeatherClassifier, MLWeatherClassifier>();
         }

@@ -44,6 +44,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA29861E-6BD1-43E0-B528-2799A701A6EC}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		tye.yaml = tye.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsFxClient\WinFormsClient.csproj", "{5549BCD6-A213-463D-8E66-714001D974E1}"

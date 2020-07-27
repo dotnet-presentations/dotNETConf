@@ -29,36 +29,6 @@ namespace Weather
                 .ConfigureWebHostDefaults((webBuilder) =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.ConfigureKestrel((ctx,options) =>
-                     {
-                         //In production we have a proxy that takes care of certificates for us
-                         //so we don't have one in the container to bind to. However, in dev we
-                         //want our clients to not have any switches to not use certificates so
-                         //we switch the server around.
-                         if (ctx.HostingEnvironment.IsProduction())
-                         {
-                             options.Listen(IPAddress.Any, 5050, listenOptions =>
-                             {
-                                 listenOptions.Protocols = HttpProtocols.Http2;
-                             });
-                         }
-                         else
-                         {
-                             options.Listen(IPAddress.Any, 5050, listenOptions =>
-                             {
-                                 listenOptions.Protocols = HttpProtocols.Http2;
-                             });
-                             options.Listen(IPAddress.Any, 5051, listenOptions =>
-                             {
-                                 listenOptions.Protocols = HttpProtocols.Http1;
-                             });
-                             options.Listen(IPAddress.Any, 5001, listenOptions =>
-                             {
-                                 listenOptions.UseHttps();
-                                 listenOptions.Protocols = HttpProtocols.Http1AndHttp2;
-                             });
-                         }
-                     });
                 });
     }
 }

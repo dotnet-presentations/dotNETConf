@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Tye.Extensions.Configuration" Version="0.4.0-alpha.20371.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BlazorWeather.Core\BlazorWeather.Core.csproj" />
     <ProjectReference Include="..\WeatherServiceML\WeatherServiceML.csproj" />
   </ItemGroup>
