@@ -61,17 +61,24 @@ namespace Weather.Workers
                     }
 
                     // send the temperature to the climate control system
-                    var temp = (model != null && model.Any())
-                        ? model.First().Temperature.Imperial.Value
-                        : new Random().Next(50,100);
+                    try
+                    {
+                        var temp = (model != null && model.Any())
+                            ? model.First().Temperature.Imperial.Value
+                            : new Random().Next(50, 100);
 
-                    var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
+                        var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
 
-                    var uri = $"{_configuration["ClimateControl:uri"]}{temp}";
+                        var uri = $"{_configuration["ClimateControl:uri"]}{temp}";
 
-                    _logger.LogInformation($"Sending temp of {temp} to {uri}");
+                        _logger.LogInformation($"Sending temp of {temp} to {uri}");
 
-                    var climateControlResponse = await climateControlClient.GetAsync(uri);
+                        var climateControlResponse = await climateControlClient.GetAsync(uri);
+                    }
+                    catch
+                    {
+                        // the climate control pi app might not always be running/responding
+                    }
 
                     //Honoring the expires time
                     if (expiresHeader.HasValue)
