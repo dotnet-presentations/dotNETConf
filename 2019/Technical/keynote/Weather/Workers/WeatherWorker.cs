@@ -52,6 +52,10 @@ namespace Weather.Workers
 
                         _cache.Set(Constants.LATEST_FORECAST_CACHE_KEY, model.First());
 
+                        var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
+                        var temp = model.First().Temperature.Imperial.Value;
+                        var climateControlResponse = await client.GetAsync($"{_configuration["ClimateControl:uri"]}/{temp}");
+
                         expiresHeader = response.Content.Headers.Expires;
                     }
                     else
@@ -66,7 +70,7 @@ namespace Weather.Workers
                     }
                     else
                     {
-                        await Task.Delay(TimeSpan.FromMinutes(60));
+                        await Task.Delay(TimeSpan.FromMinutes(2));
                     }
                 }
                 catch (Exception ex)
