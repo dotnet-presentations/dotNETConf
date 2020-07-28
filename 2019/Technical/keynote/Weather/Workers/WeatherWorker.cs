@@ -52,6 +52,7 @@ namespace Weather.Workers
                         Temperature = new Temperature { Imperial = new Imperial { Value = 57 } },
                         UVIndex = 2,
                         WeatherIcon = 1,
+                        Pressure = new Pressure { Imperial = new Imperial8 { Value = 29.99f } },
                         Wind = new Wind { Direction = new Direction { English = "SSE" }, Speed = new Speed { Imperial = new Imperial4 { Value = 5.8f } } },
                         TemperatureSummary = new Temperaturesummary { Past6HourRange = new Past6hourrange { Minimum = new Minimum { Imperial = new Imperial22 { Value = 55 } }, Maximum = new Maximum { Imperial = new Imperial23 { Value = 90 } } }
                     } } };
@@ -79,7 +80,8 @@ namespace Weather.Workers
                     {
                         var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
 
-                        var uri = $"{_configuration.GetServiceUri("climatecontrol")}{model.First().Temperature.Imperial.Value}";
+                        //var uri = $"{_configuration.GetServiceUri("climatecontrol")}{model.First().Temperature.Imperial.Value}";
+                        var uri = $"{_configuration["ClimateControl:uri"]}{model.First().Temperature.Imperial.Value}";
 
                         _logger.LogInformation($"Sending temp to {uri}");
 

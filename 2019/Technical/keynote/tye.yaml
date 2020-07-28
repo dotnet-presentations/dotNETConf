@@ -6,5 +6,3 @@ services:
     - protocol: https
 - name: blazor
   project: BlazorWeather.Server/BlazorWeather.Server.csproj
-- name: climatecontrol
-  project: ClimateControl/ClimateControl.csproj
