@@ -12,6 +12,9 @@ A variety of banners are available for you to help us advertise the event on you
 
 If you would like to run a similar event in your region in your local language, you may change the date, URL, and name of the event on the banners. Please email dotnetconf@dotnetfoundation.org and let us know! We want to make sure your event is all about .NET microservices. 
 
+## Digital Swag
+Have fun and show your .NET love with this collection of mouse cursors, phone and desktop backgrounds! These can be found in the `Swag` folder. 
+
 ## Technical
 Session decks and demos will be made available after the show and  can be found in the `Technical` folder. All recordings will be available on [Channel9](https://channel9.msdn.com/Events/dotnetconf) and our [YouTube channel](https://youtube.com/dotnet) after the event and will have captions translated into 12 languages. 
 
