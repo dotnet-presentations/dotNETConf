@@ -1,38 +1,42 @@
-using System;
-using System.Threading.Tasks;
-//using ClimateControl;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Json;
 using Microsoft.Extensions.Hosting;
+using System;
 
-WebApplication.Create(args).MapGet("/temperature/{temp}", async http =>
+Host.CreateDefaultBuilder(null).ConfigureWebHostDefaults(webBuilder =>
 {
-    //var ledService = new LEDService();
-    var perfectTemperature = int.Parse(app.Configuration["perfectTemperature"]);
-    var tempRouteValue = (string)http.Request.RouteValues["temp"];
-    var temp = 0.0;
-    var isSuccess = double.TryParse(tempRouteValue, out temp);
-    var tolerance = 3;
-
-    if (isSuccess)
+    webBuilder.Configure(app =>
     {
-        if (temp <= (perfectTemperature - tolerance))
+        app.UseRouting();
+        app.UseEndpoints(endpoints =>
         {
-            Console.WriteLine("Too cold!");
-            //ledService.ToggleGold(true);
-        }
-        else if (temp >= (perfectTemperature + tolerance))
-        {
-            Console.WriteLine("Too hot!");
-            //ledService.ToggleRed(true);
-        }
-        else
-        {
-            Console.WriteLine("Just right!");
-            //ledService.ToggleGreen(true);
-        }
-    }
+            endpoints.MapGet("/", async context =>
+            {
+                var perfectTemperature = 65;
+                var tempRouteValue = (string)context.Request.RouteValues["temp"];
+                var temp = 0.0;
+                var isSuccess = double.TryParse(tempRouteValue, out temp);
+                var tolerance = 3;
 
-    await http.Response.WriteJsonAsync(new { success = isSuccess });
-}).RunAsync();
+                if (isSuccess)
+                {
+                    if (temp <= (perfectTemperature - tolerance))
+                    {
+                        Console.WriteLine("Too cold!");
+                    }
+                    else if (temp >= (perfectTemperature + tolerance))
+                    {
+                        Console.WriteLine("Too hot!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Just right!");
+                    }
+                }
+
+                await context.Response.WriteAsJsonAsync(new { success = isSuccess });
+            });
+        });
+    });
+}).Build().Run();

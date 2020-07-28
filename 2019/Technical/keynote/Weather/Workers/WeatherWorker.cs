@@ -42,7 +42,21 @@ namespace Weather.Workers
                 {
                     DateTimeOffset? expiresHeader = null;
                     var token = _configuration["accuweathertoken"];
-                    Forecast[] model = null;
+
+                    // mock model just in case the external weather service hasn't been configured
+                    Forecast[] model = new Forecast[] { new Forecast()
+                    {
+                        WeatherText = "Sunny",
+                        IsDayTime = true,
+                        RelativeHumidity = 45,
+                        Temperature = new Temperature { Imperial = new Imperial { Value = 57 } },
+                        UVIndex = 2,
+                        WeatherIcon = 1,
+                        Wind = new Wind { Direction = new Direction { English = "SSE" }, Speed = new Speed { Imperial = new Imperial4 { Value = 5.8f } } },
+                        TemperatureSummary = new Temperaturesummary { Past6HourRange = new Past6hourrange { Minimum = new Minimum { Imperial = new Imperial22 { Value = 55 } }, Maximum = new Maximum { Imperial = new Imperial23 { Value = 90 } } }
+                    } } };
+
+                    // has the external weather service been configured?
                     if (!string.IsNullOrWhiteSpace(token))
                     {
                         var client = _httpClientFactory.CreateClient("AccuWeather");
@@ -51,27 +65,23 @@ namespace Weather.Workers
 
                         model = await JsonSerializer.DeserializeAsync<Forecast[]>(await response.Content.ReadAsStreamAsync());
 
-                        _cache.Set(Constants.LATEST_FORECAST_CACHE_KEY, model.First());
-
                         expiresHeader = response.Content.Headers.Expires;
                     }
                     else
                     {
                         Console.WriteLine("No accuweather key set, returning mock data.");
+
+                        model.First().Temperature.Imperial.Value = new Random().Next(50, 100);
                     }
 
                     // send the temperature to the climate control system
                     try
                     {
-                        var temp = (model != null && model.Any())
-                            ? model.First().Temperature.Imperial.Value
-                            : new Random().Next(50, 100);
-
                         var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
 
-                        var uri = $"{_configuration["ClimateControl:uri"]}{temp}";
+                        var uri = $"{_configuration.GetServiceUri("climatecontrol")}{model.First().Temperature.Imperial.Value}";
 
-                        _logger.LogInformation($"Sending temp of {temp} to {uri}");
+                        _logger.LogInformation($"Sending temp to {uri}");
 
                         var climateControlResponse = await climateControlClient.GetAsync(uri);
                     }
@@ -80,6 +90,9 @@ namespace Weather.Workers
                         // the climate control pi app might not always be running/responding
                     }
 
+                    // cache the model
+                    _cache.Set(Constants.LATEST_FORECAST_CACHE_KEY, model.First());
+
                     //Honoring the expires time
                     if (expiresHeader.HasValue)
                     {
@@ -87,8 +100,7 @@ namespace Weather.Workers
                     }
                     else
                     {
-                        //await Task.Delay(TimeSpan.FromMinutes(2));
-                        await Task.Delay(TimeSpan.FromSeconds(10));
+                        await Task.Delay(TimeSpan.FromMinutes(1));
                     }
                 }
                 catch (Exception ex)
