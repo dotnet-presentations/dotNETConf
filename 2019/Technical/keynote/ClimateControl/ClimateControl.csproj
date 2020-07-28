@@ -1,17 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TargetFramework>net5.0</TargetFramework>
 		<RestoreSources>
 			$(RestoreSources);
 			https://api.nuget.org/v3/index.json;
 			https://f.feedz.io/featherhttp/framework/nuget/index.json
 		</RestoreSources>
+		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="piTop" Version="1.0.56" />
-		<PackageReference Include="piTop.FoundationKit" Version="1.0.56" />
 		<PackageReference Include="FeatherHttp" Version="0.1.67-alpha.g69b43bed72" />
 	</ItemGroup>
 
