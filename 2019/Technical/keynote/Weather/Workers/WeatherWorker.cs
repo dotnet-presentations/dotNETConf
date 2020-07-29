@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Channels;
@@ -62,9 +63,9 @@ namespace Weather.Workers
                     {
                         var client = _httpClientFactory.CreateClient("AccuWeather");
 
-                        var response = await client.GetAsync($"{_configuration["weather:uri"]}/340247?apikey={_configuration["accuweathertoken"]}&details=true");
-
-                        model = await JsonSerializer.DeserializeAsync<Forecast[]>(await response.Content.ReadAsStreamAsync());
+                        var response = await client.GetAsync($"/340247?apikey={_configuration["accuweathertoken"]}&details=true");
+                        
+                        model = await response.Content.ReadFromJsonAsync<Forecast[]>();
 
                         expiresHeader = response.Content.Headers.Expires;
                     }
@@ -80,8 +81,7 @@ namespace Weather.Workers
                     {
                         var climateControlClient = _httpClientFactory.CreateClient("ClimateControl");
 
-                        //var uri = $"{_configuration.GetServiceUri("climatecontrol")}{model.First().Temperature.Imperial.Value}";
-                        var uri = $"{_configuration["ClimateControl:uri"]}{model.First().Temperature.Imperial.Value}";
+                        var uri = $"/temperature/{model.First().Temperature.Imperial.Value}";
 
                         _logger.LogInformation($"Sending temp to {uri}");
 
@@ -102,7 +102,7 @@ namespace Weather.Workers
                     }
                     else
                     {
-                        await Task.Delay(TimeSpan.FromMinutes(1));
+                        await Task.Delay(TimeSpan.FromSeconds(10));
                     }
                 }
                 catch (Exception ex)

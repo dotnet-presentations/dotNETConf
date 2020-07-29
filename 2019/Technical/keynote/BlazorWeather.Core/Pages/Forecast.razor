@@ -54,10 +54,35 @@ else
 
     async Task GetWeatherUpdates()
     {
-        await foreach (var weatherResponse in WeatherForecastService.GetStreamingWeather(streamingWeatherCTS.Token))
+        var initial = TimeSpan.FromSeconds(1);
+        var delay = initial;
+
+        while (true)
         {
-            currentWeather = weatherResponse;
-            StateHasChanged();
+            try
+            {
+                await foreach (var weatherResponse in WeatherForecastService.GetStreamingWeather(streamingWeatherCTS.Token))
+                {
+                    if (delay > initial)
+                    {
+                        // Reset the delay after success
+                        delay = initial;
+                    }
+
+                    currentWeather = weatherResponse;
+                    StateHasChanged();
+                }
+
+                break;
+            }
+            catch (Exception ex)
+            {
+                // Wait before we try again
+                await Task.Delay(delay);
+
+                // Double the delay
+                delay *= 2;
+            }
         }
     }
 

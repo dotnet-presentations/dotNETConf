@@ -2,16 +2,22 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
 using System;
+using System.Net.Http;
 
-Host.CreateDefaultBuilder(null).ConfigureWebHostDefaults(webBuilder =>
+Host.CreateDefaultBuilder().ConfigureWebHostDefaults(webBuilder =>
 {
-    webBuilder.Configure(app =>
+    webBuilder.Configure((builderContext, app) =>
     {
+        var client = new HttpClient
+        {
+            BaseAddress = builderContext.Configuration.GetServiceUri("pi")
+        };
         app.UseRouting();
         app.UseEndpoints(endpoints =>
         {
-            endpoints.MapGet("/", async context =>
+            endpoints.MapGet("/temperature/{temp}", async context =>
             {
                 var perfectTemperature = 65;
                 var tempRouteValue = (string)context.Request.RouteValues["temp"];
@@ -34,6 +40,8 @@ Host.CreateDefaultBuilder(null).ConfigureWebHostDefaults(webBuilder =>
                         Console.WriteLine("Just right!");
                     }
                 }
+
+                await client.GetAsync($"/temperature/{temp}");
 
                 await context.Response.WriteAsJsonAsync(new { success = isSuccess });
             });

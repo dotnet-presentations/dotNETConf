@@ -14,11 +14,19 @@ using Weather.Model;
 using Weather.Services;
 using Weather.Workers;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace Weather
 {
     public class Startup
     {
+        private IConfiguration _configuration;
+
+        public Startup(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -28,11 +36,18 @@ namespace Weather
                 builder.AllowAnyOrigin();
             }));
             services.AddGrpc();
-            services.AddHttpClient("AccuWeather")
-                    .ConfigurePrimaryHttpMessageHandler(_ => new HttpClientHandler()
-                    {
-                        AutomaticDecompression = System.Net.DecompressionMethods.GZip | System.Net.DecompressionMethods.Deflate
-                    });
+            services.AddHttpClient("AccuWeather", (client) =>
+            {
+                client.BaseAddress = new Uri(_configuration["weather:uri"]);
+            })
+            .ConfigurePrimaryHttpMessageHandler(_ => new HttpClientHandler()
+            {
+                AutomaticDecompression = System.Net.DecompressionMethods.GZip | System.Net.DecompressionMethods.Deflate
+            });
+            services.AddHttpClient("ClimateControl", (client) =>
+            {
+                client.BaseAddress = _configuration.GetServiceUri("climatecontrol");
+            });
             services.AddMemoryCache();
             services.AddControllers();
             services.AddHostedService<WeatherWorker>();
