@@ -1,5 +1,7 @@
 name: WeatherService
 services:
+- name: climatecontrol
+  project: ClimateControl/ClimateControl.csproj
 - name: weather
   project: Weather/Weather.csproj
   bindings:
