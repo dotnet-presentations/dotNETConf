@@ -1,0 +1,219 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+
+#main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.weather-now, .weather-graph {
+    flex-grow: 1;
+    margin: 1.5rem;
+    width: calc(50% - 3rem);
+}
+
+.weather-now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .weather-now h1 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+
+.location-img {
+    flex-grow: 1;
+    background: url('spaceneedle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+    .location-img img {
+        width: 100%;
+    }
+
+.temperature {
+    font-size: 6rem;
+    display: inline-block;
+    position: relative;
+}
+
+    .temperature::after {
+        content: "°";
+        position: absolute;
+        font-size: 5rem;
+        top: 0.3rem;
+        left: 100%;
+    }
+
+.unit-switch {
+    position: absolute;
+    bottom: 0.75rem;
+    left: calc(100% + 2rem);
+    width: 200px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.temp-unit-option {
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+.summary {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.weather-img {
+    margin-right: -10px;
+    margin-top: 2px;
+}
+
+.metrics {
+    display: flex;
+    margin-top: 2rem;
+}
+
+    .metrics > div {
+        background: linear-gradient(-45deg, rgba(255,255,255,0.05), rgba(255,255,255,0.35));
+        padding: 0.75rem;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 600;
+        border-radius: 1rem;
+        border-bottom-right-radius: 0;
+    }
+
+        .metrics > div:not(:last-of-type) {
+            margin-right: 1rem;
+        }
+
+        .metrics > div p {
+            margin: 0;
+            font-weight: 200;
+            font-size: 1.2rem;
+        }
+
+.update-info {
+    text-transform: uppercase;
+}
+
+.warm {
+    background-image: linear-gradient(#F6CC66, #FCA184);
+}
+
+.cold {
+    background-image: linear-gradient(#BDE3FA, #A5C9FD);
+}
+
+.night {
+    background-image: linear-gradient(#172941, #3C6683);
+}
+
+@media (max-width: 767.98px) {
+    #main {
+        flex-direction: column;
+    }
+
+    .weather-now, .weather-graph {
+        width: unset;
+    }
+
+    .location-img {
+        min-height: 30vh;
+    }
+
+    .weather-graph {
+        height: 50vh;
+        margin: auto;
+    }
+
+    .wind-details {
+        display: none; /* not enough space on mobile */
+    }
+}
+
+.btn-link {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 12px;
+    font-size: 15px;
+    /*optional*/
+    /*input has OS specific font-family*/
+    border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+    .btn-link.selected {
+        background: linear-gradient(-45deg, rgba(255,255,255,0.05), rgba(255,255,255,0.35));
+        font-weight: bold;
+    }
+
+.image-predictor {
+    margin-top: 20px;
+    display: flex;
+}
+
+.result-label {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 12px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.result-pane {
+    float: left;
+    position: relative;
+}
+
+    .result-pane img {
+        border-radius: 1rem;
+        border-bottom-right-radius: 0;
+    }
+
+.image-selector {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 200px;
+    margin-left: -200px;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 2rem;
+    margin-bottom: 0;
+}

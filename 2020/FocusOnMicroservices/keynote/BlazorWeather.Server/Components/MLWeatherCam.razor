@@ -1,0 +1,44 @@
+﻿@inject IWeatherClassifier WeatherClassifier
+
+<h3>Weather Cam</h3>
+
+<div class="image-predictor">
+    <div class="image-selector">
+        @foreach (var place in cams.Keys)
+        {
+            <button class="@(cams[place] == camUrl ? "btn-link selected" : "btn-link")"
+                    @onclick="() => Update(cams[place])">
+                @place
+                </button>
+            }
+    </div>
+
+    <div class="result-pane">
+        <img src="@camUrl" height="300" />
+        <span class="result-label">@(weatherDescription == null ? "Hmm, the weather looks..." : weatherDescription)</span>
+    </div>
+</div>
+
+
+@code {
+    IDictionary<string, string> cams = new Dictionary<string, string>()
+    {
+        { "Century Link Field", "weatherImages/century-link.png" },
+        { "Paramount Theater", "weatherImages/paramount-theater.jpg" },
+        { "Golden Gardens Park", "weatherImages/golden-gardens.jpg" }
+    };
+    string camUrl;
+    string weatherDescription;
+
+    protected override Task OnParametersSetAsync()
+    {
+        return Update(cams.Values.First());
+    }
+
+    async Task Update(string imgUrl)
+    {
+        weatherDescription = null;
+        camUrl = imgUrl;
+        weatherDescription = await WeatherClassifier.ClassifyWeather(camUrl);
+    }
+}

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "Weather";
+
+package Weather;
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+service Weather {
+	rpc GetWeatherStream(google.protobuf.Empty) returns (stream WeatherResponse);
+	rpc GetWeather(google.protobuf.Empty) returns (WeatherResponse);
+}
+
+message WeatherResponse {
+	string weatherText = 1;
+	int32 weatherIcon = 2;
+	string weartherUri = 3;
+	bool isDayTime = 4;
+	float temperature = 5;
+	float relativeHumidity = 6;
+	float windSpeed = 7;
+	int32 uvIndex = 8;
+	float pressure = 9;
+	float past6HourMin = 10;
+	float past6HourMax = 11;
+	google.protobuf.Timestamp retrievedTime = 12;
+	string windDirection = 13;
+	string location = 14;
+}
+
