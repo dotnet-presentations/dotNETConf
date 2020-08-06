@@ -1,0 +1,18 @@
+﻿<div class="unit-switch" @onclick="SwitchTemperatureUnit">
+    <span class="temp-unit">@TemperatureUnit</span>
+    <span class="temp-unit-option">/ @(TemperatureUnit == "F" ? "C" : "F")</span>
+</div>
+
+@code {
+    [Parameter]
+    public string TemperatureUnit { get; set; } = "F";
+
+    [Parameter]
+    public EventCallback<string> TemperatureUnitChanged { get; set; }
+
+    Task SwitchTemperatureUnit()
+    {
+        TemperatureUnit = TemperatureUnit == "F" ? "C" : "F";
+        return TemperatureUnitChanged.InvokeAsync(TemperatureUnit);
+    }
+}
