@@ -12,6 +12,7 @@ Scott and David from the .NET team kick off the day with .NET Core features, roa
 
 - [Slides](dotNETMicroservices_Welcome.pptx)   
 - [Video](https://youtu.be/ZEvoxXnsbbU)
+- [Demo](https://github.com/dotnet-presentations/dotNETConf/tree/master/2020/FocusOnMicroservices/keynote)
 
 ### Why You Should Care About Microservices 
 [Brendan Burns](https://twitter.com/brendandburns)  
