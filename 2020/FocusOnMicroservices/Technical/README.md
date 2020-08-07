@@ -65,6 +65,7 @@ Learn about new tooling the .NET team is working on to help you build microservi
 
 In this session you will learn about when and why to use asynchronous communication with and between services, what kind of eventing/messaging infrastructure you can use in the cloud and on the edge, and how to make it all work together.
 
+- [Slides](Beyond-REST-and-RPC-Asynchronous-Eventing-and-Messaging-Patterns.pptx)
 - [Video](https://youtu.be/6zs-PhgfLU4)
 
 ### The Intersection of Microservices, Domain-Driven Design and Entity Framework Core 
@@ -73,6 +74,7 @@ In this session you will learn about when and why to use asynchronous communicat
 Domain-Driven Design (DDD) provides much of the strategic design guidance that we can use to determine the boundaries around and interactions between Microservices in our solutions. DDD also follows up with tactical design patterns for your business logic. In this session we’ll take a look at some of these patterns and how EF Core naturally, or with some additional configuration, persists the data that your microservices depend on.
 
 - [Video](https://youtu.be/DG8Qe7TJiIE)
+- [Demo](https://github.com/julielerman/dotnetconfms2020)
 
 ### Build High-performance Microservices with gRPC and .NET 
 [James Newton-King](https://twitter.com/JamesNK)  
