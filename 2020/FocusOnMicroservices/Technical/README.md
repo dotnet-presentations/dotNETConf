@@ -123,3 +123,16 @@ See how you can take advantage of Visual Studio tools to build, debug and deploy
 
 - [Slides](DevelopDebugMicroservices.pptx)
 - [Video](https://youtu.be/98nIvg7ne7Q)
+
+### Post-Conference Workshop
+[Rob Vettor](https://twitter.com/robvettor), [Monu Bambroo](https://twitter.com/BambrooMonu) 
+
+6+ hour workshop going deep into how to build .NET microservice-based applications on Azure. 
+
+- For slides see the `\Workshop` folder
+- [Video 1](https://www.youtube.com/watch?v=jMDufMYAsmw&list=PLdo4fOcmZ0oUc2ShrReCS7KoBbPEONE0p&index=17&t=0s)
+- [Video 2](https://www.youtube.com/watch?v=u7MM21aIsqk&list=PLdo4fOcmZ0oUc2ShrReCS7KoBbPEONE0p&index=18&t=0s)
+- [Video 3](https://www.youtube.com/watch?v=iL3Kxd4Auys&list=PLdo4fOcmZ0oUc2ShrReCS7KoBbPEONE0p&index=19&t=0s)
+- [Video 4](https://www.youtube.com/watch?v=3G7NB4waGbk&list=PLdo4fOcmZ0oUc2ShrReCS7KoBbPEONE0p&index=20&t=0s)
+- [Video 5](https://www.youtube.com/watch?v=qwEfynnevEU&list=PLdo4fOcmZ0oUc2ShrReCS7KoBbPEONE0p&index=21&t=0s)
+- [Video 6](https://www.youtube.com/watch?v=7kVmb747vfM&list=PLdo4fOcmZ0oUc2ShrReCS7KoBbPEONE0p&index=22&t=0s)
