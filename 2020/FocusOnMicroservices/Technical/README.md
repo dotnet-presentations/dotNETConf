@@ -58,6 +58,7 @@ DAPR makes building distributed applications much easier by providing a collecti
 
 Learn about new tooling the .NET team is working on to help you build microservices faster.
 
+- [Slides](TyeNetConfPresentation.pptx)
 - [Video](https://youtu.be/MMIUpYOQq5Y)
 
 ### Beyond REST and RPC: Asynchronous Eventing and Messaging Patterns
