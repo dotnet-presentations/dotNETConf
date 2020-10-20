@@ -3,7 +3,7 @@
 The .NET belt is meant to used as a belt cover going over the belt buckle.
 
 
-### File type
+### File type:
     .STL
 
 ### Recommendations:
@@ -23,3 +23,10 @@ The .NET belt is meant to used as a belt cover going over the belt buckle.
         Supports enabled
         Infill 20% or higher
         Layer Height 0.25mm
+
+### Images:
+
+![belt buckle render](/Images/Belt_buckle_render.jpg)
+
+![belt buckle slicer](/Images/Belt_buckle_slicer.jpg)
+
