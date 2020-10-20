@@ -1,5 +1,5 @@
 ## dotnet-bot-3D
-This 3D file can be used digitally (see Animation) or with 3D printers (see XYZ).
+This 3D file can be used digitally (see Animation) or with 3D printers (see 3D Printing).
 
 
 
