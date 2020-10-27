@@ -1,11 +1,14 @@
 ## dotnet-bot-3D
-This 3D file can be used digitally (see Animation) or with 3D printers (see 3D Printing).
-
+This folder contains multiple file types for the 3D dotnet-bot. 
 
 
 ### dotnet-bot Animation
+File types:
+    Blend
+    FBX
+    Tpose FBX
 
-Moving the Rig: Pose mode
+#### Moving the Rig: Pose mode
     In Blender, Right click the Rig and go from “object mode” into “Pose mode”.
 
     Bones:
@@ -64,7 +67,7 @@ View controls (Number Pad)
     Z: Render modes
 
 Visual animation here: 
-![dotnet-bot 3D model bone illustration](/Images/dotnet-bot-3D_bones_ref.png)
+![dotnet-bot 3D model bone illustration](/Images/dotnet-bot-3D_bones_ref2.png)
 
 
 ### dotnet-bot 3D printing
@@ -73,6 +76,8 @@ The .NET Bot is a 3D printable statue
 
 #### File type:
     .STL
+    GCODE (set to size dimensions below)
+    Blend
 
 #### Recommendations:
 
