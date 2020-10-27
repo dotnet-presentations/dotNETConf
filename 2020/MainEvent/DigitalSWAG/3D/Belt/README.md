@@ -5,6 +5,7 @@ The .NET belt is meant to used as a belt cover going over the belt buckle.
 
 ### File type:
     .STL
+    GCODE (set to below dimensions)
 
 ### Recommendations:
     Materials
