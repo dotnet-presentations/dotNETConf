@@ -51,6 +51,6 @@ New to #dotNETConf? Check out the videos from last year and save November 10-12 
 
 # Syndication
 
-Syndication instructions coming soon! Contact [dotnetconf@dotnetfoundation.org](mailto:dotnetconf@dotnetfoundation.org) and let us know you want to be involved.
+See the [Syndication.pdf](Syndication.pdf) for instructions on how to embed the player on your own developer-focused site. Contact [dotnetconf@dotnetfoundation.org](mailto:dotnetconf@dotnetfoundation.org) and let us know you want to be involved.
 
 
