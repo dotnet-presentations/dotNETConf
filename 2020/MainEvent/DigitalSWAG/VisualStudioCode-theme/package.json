@@ -1,0 +1,48 @@
+{
+    "name": "dotnet-purple-theme",
+    "displayName": ".NET Purple Theme",
+    "description": "A theme for .NET fans and all those who love purple.",
+    "version": "0.1.2",
+    "preview": true,
+    "publisher": "dotnetconfteam",
+    "license": "MIT",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "505050",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet-presentations/dotNETConf/tree/master/2020/MainEvent/DigitalSWAG/VisualStudioCode-theme"
+    },
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "theme",
+        ".NET",
+        "light",
+        "dark",
+        "purple",
+        "blue",
+        "bot"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": ".NET Purple theme dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dotnet-purple-theme.json"
+            },
+            {
+                "label": ".NET Purple theme light",
+                "uiTheme": "vs",
+                "path": "./themes/dotnet-purple-theme-light.json"
+            }
+        ]
+    }
+}
