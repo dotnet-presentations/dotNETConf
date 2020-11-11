@@ -67,7 +67,7 @@ View controls (Number Pad)
     Z: Render modes
 
 Visual animation here: 
-![dotnet-bot 3D model bone illustration](/Images/dotnet-bot-3D_bones_ref2.png)
+![dotnet-bot 3D model bone illustration](Images/dotnet-bot-3D_bones_ref2.png)
 
 
 ### dotnet-bot 3D printing
