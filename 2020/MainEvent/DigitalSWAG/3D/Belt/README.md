@@ -27,7 +27,7 @@ The .NET belt is meant to used as a belt cover going over the belt buckle.
 
 ### Images:
 
-![belt buckle render](/Images/Belt_buckle_render.jpg)
+![belt buckle render](Images/Belt_buckle_render.jpg)
 
-![belt buckle slicer](/Images/Belt_buckle_slicer.jpg)
+![belt buckle slicer](Images/Belt_buckle_slicer.jpg)
 
