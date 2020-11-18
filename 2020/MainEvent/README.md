@@ -1,9 +1,12 @@
 # .NET Conf 2020 "Event-in-a-Box"
 [![](Creative/550x182-banner.png)](https://www.dotnetconf.net)
 ## November 10 - 12, 2020 [www.dotnetconf.net](https://www.dotnetconf.net)
-.NET Conf is a free, 3 day virtual developer event organized by the .NET community, .NET Foundation, and Microsoft. .NET Conf 2020 is going to be extra special as .NET 5.0 launches on the 10-year anniversary of this virtual conference happening November 10-12th, 2020!   
+.NET Conf is a free, 3 day virtual developer event organized by the .NET community, .NET Foundation, and Microsoft. .NET Conf 2020 was extra special as .NET 5.0 launched on the 10-year anniversary of this virtual conference. A huge THANK YOU to all who tuned in live, asked questions in our twitter feed and participated in our fun and games. Don't forget to get your free digital swag!
 
-This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. This repo contains creative and technical content for running a .NET Conf 2020 virtual event for your community as well as information on how to syndicate the broadcast on your own sites. 
+Watch the sessions on demand on the [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI) and [Channel 9](https://channel9.msdn.com/Events/dotnetConf/2020/).
+
+# Community-run virtual events
+This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. This repo contains creative and technical content for running a .NET Conf 2020 virtual event for your community. 
 
 **If you are interested in running a virtual meetup or event for your community between November 13, 2020 and January 31, 2021, please make sure you let us know by filling out the [Virtual Community Event Request Form](https://bit.ly/3mR1lsA).** We will advertize your community event on the main event website, YouTube and social. 
 
@@ -12,13 +15,10 @@ You are free to organize a presentation, workshop, or hack-a-thon delivered virt
 
 The technical content needs to be .NET related and preferably on .NET 5.0. Topics can include but aren't limited to: ASP.NET, Xamarin, Unity, Windows, Visual Studio family, C#/F#/Visual Basic, Azure, ML .NET, Entity Framework, .NET open source projects. Basically, anything .NET-related! You can also choose to redeliver any of the content from the show, with proper attribution to the original speakers. 
 
-We're also working on a variety of content we're updating to .NET 5.0 to make it easy to decide so stay tuned here for that. 
-
 # Technical Content
-Session decks will be found in the `Technical` folder and all sessions will be available on-demand after the show. Check back then!
+Session decks will be found in the `Technical` folder as we receive them from speakers. Watch the sessions on demand on the [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI) and [Channel 9](https://channel9.msdn.com/Events/dotnetConf/2020/). 
 
-For now, check out more .NET presentations and workshops here: [https://github.com/dotnet-presentations/home](https://github.com/dotnet-presentations/home)
-
+Also take a look at .NET presentations and workshops here: [https://github.com/dotnet-presentations/home](https://github.com/dotnet-presentations/home)
 
 # Creative & Social Copy 
 The `Creative` folder contains creative banners and images you can use to advertise .NET Conf and your own community events. There are a variety of sizes to choose from. You may use any of these banners to advertize the main event itself, or your virtual events in your community. You may add your local meetup name, location and dates to these images. Please do not change the .NET Conf branding. Please contact [dotnetconf@dotnetfoundation.org](mailto:dotnetconf@dotnetfoundation.org) if you have any questions.  
