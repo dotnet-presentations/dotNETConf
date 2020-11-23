@@ -140,7 +140,7 @@ Wind down a little from the day's sessions and learn some fun new things.
 
 GitHub and Visual Studio technologies have evolved and provide unique productivity enhancements to all .NET developers. Join this demo-filled session to see how it benefits you.
 
-- [Slides](Rian_dotnetconf2020-GitHub Codespaces.pptx)
+- [Slides](Rian_dotnetconf2020_GitHub_Codespaces.pptx)
 - [Video](https://www.youtube.com/watch?v=YqeIuTYdX4c&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=19)
 
 ### Effectively Diagnose and Debug .NET Apps in Visual Studio
@@ -148,7 +148,7 @@ GitHub and Visual Studio technologies have evolved and provide unique productivi
 
 Debug .NET Core running on Linux, master async debugging, and squeeze the last bit of performance out of your apps with the new features in Visual Studio.
 
-- [Slides](Downie_dotnetConf - 20201103 - Effectively diagnose and debug .NET in Visual Studio.pptx)
+- [Slides](Downie_dotnetConf_Effectively_diagnose_and_debug_.NET_in_Visual_Studio.pptx)
 - [Video](https://www.youtube.com/watch?v=cOYFDD3tU38&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=20)
 
 ### What’s New in Visual Studio 2019 and beyond
@@ -164,7 +164,7 @@ Learn what’s new in latest Visual Studio 2019 as well as features the team is 
 
 Learn about Roslyn Analyzers and how it can supercharge your developer productivity. This session includes tips on how to leverage smart code focused tools, such as code fixes and refactorings and an introduction to write your own customized code fix and refactoring using Roslyn's open source API.
 
-- [Slides](Dumont_Havens_dotnetconf2020-Improve Your Productivity with Roslyn Analyzers.pptx)
+- [Slides](Dumont_Havens_dotnetconf2020_Improve_Your_Productivity_with_Roslyn_Analyzers.pptx)
 - [Video](https://www.youtube.com/watch?v=Ma1FBFcLqMs&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=22)
 
 ### HTTP API Development with .NET, Azure, and OpenAPI: Paper Cuts Begone!
@@ -180,7 +180,7 @@ If you build HTTP APIs in .NET you probably have ceremonies you iterate through 
 
 GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Easily deploy your .NET Core application to Azure with just one tool, GitHub.
 
-- [Slides](Levin_Accelerate .NET to Azure with GitHub Actions.pptx)
+- [Slides](Levin_Accelerate_.NET_to_Azure_with_GitHub_Actions.pptx)
 - [Video](https://www.youtube.com/watch?v=3SP8SgcEFyw&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=24)
 
 ### Real-time 3D Games with .NET and Unity
@@ -196,7 +196,7 @@ Are you curious how to take your .NET skills to 25+ platforms like VR, AR, Xbox,
 
 Come learn about the new Azure SDK for .NET and the improvements to performance, authentication and configuration that we have been working on in the last couple of years.
 
-- [Slides](Richter-The New & Improved Azure SDK for .NET.pptx)
+- [Slides](Richter_The_New_Improved_Azure_SDK_for_.NET.pptx)
 - [Video](https://www.youtube.com/watch?v=v36NXLU3TLY&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=26)
 
 ### The Missing Piece - Diving into the World of Big Data with .NET for Apache Spark
@@ -236,7 +236,7 @@ Azure SQL customers love Jupyter notebooks, especially having dedicated SQL, Pow
 
 Supercharge your devops skills and learn how to deploy and run your solutions securely in Azure using the Microsoft Identity Platform, ARM, service principals and Managed Identities. In this demo-rich session, you'll find out how to leverage the right tools and elevate DevOps to the next level!
 
-- [Slides](Matskas_Dandison_dotnetconf2020-Secure Dev Ops.pptx)
+- [Slides](Matskas_Dandison_dotnetconf2020-Secure_Dev_Ops.pptx)
 - [Video](https://www.youtube.com/watch?v=Spprpp1o5nM&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=31)
 
 ### Get Your JAM On
@@ -268,7 +268,7 @@ We will look at the main differences between Client Side Blazor, and Server Side
 
 Let's set up feature flags with .NET! We will walk through how to create a feature flag in the UI, install dependencies, and implement your feature flag in your .NET app.
 
-- [Slides](Nassi_.NET Conf.pdf)
+- [Slides](Nassi_.NET_Conf.pdf)
 - [Video](https://www.youtube.com/watch?v=IJ1BRSLZDgg&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=35)
 
 ### Level-up Your DevOps with GitHub Actions and Kubernetes
@@ -300,7 +300,7 @@ Caught with an unusual data format and want to convert it to something more frie
 
 Coroutines are state-machine-style functions that can be suspended, resumed and executed cooperatively by yielding. In C# they are traditionally implemented as IEnumerable. With C# 8+, it's possible to combine "await" and "yield" within the same method, so we can have asynchrony inside coroutines. Come see how.
 
-- [Slides](Nosenko_Asynchronous Coroutines with C#.pptx)
+- [Slides](Nosenko_Asynchronous_Coroutines_with_C#.pptx)
 - [Video](https://www.youtube.com/watch?v=pE6b2Bs3U9Q&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=39)
 
 ### Bring Intelligence to the Edge with Custom Vision
@@ -316,7 +316,7 @@ Get familiar with with Custom Vision, its API and ML algorithms for image classi
 
 With C# 9 there is finally an officially supported mechanism for generating source code into your .NET projects as part of the compiler pipeline. Lets run through how they work, some of the pros and cons, and play around with ideas to get your mind racing with the possibilities.
 
-- [Slides](Wengier_Source generators.pptx)
+- [Slides](Wengier_Source_generators.pptx)
 - [Video](https://www.youtube.com/watch?v=3YwwdoRg2F4&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=41)
 
 ### Setting up Health Checks for an ASP.NET Core application and its Dependencies
