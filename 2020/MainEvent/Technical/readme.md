@@ -20,7 +20,7 @@ Scott Hunter, Director of Program Management for .NET, will kick off the day wit
 
 Take a look at what the .NET Foundation has been up to and how to get involved.
 
-- Slides
+- [Slides](dotnetconf2020_FoundationUpdate.pptx)
 - [Video](https://www.youtube.com/watch?v=ppIBnjAdgik&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=4)
 
 ### What’s New in C#?
