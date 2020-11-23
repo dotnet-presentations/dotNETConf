@@ -263,67 +263,106 @@ We will look at the main differences between Client Side Blazor, and Server Side
 - [Slides](dotnetconf2020-deck-Dobretsberger.pptx)
 - [Video](https://www.youtube.com/watch?v=-FDQX1jmj64&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=34)
 
-Setting Up Feature Flags with .NET  -  Talia Nassi  
-17:30 (PT) | 01:30 (UTC) | 19:30 (Local)
+### Setting Up Feature Flags with .NET
+[Talia Nassi](https://twitter.com/talia_nassi)
 
 Let's set up feature flags with .NET! We will walk through how to create a feature flag in the UI, install dependencies, and implement your feature flag in your .NET app.
 
-Level-up Your DevOps with GitHub Actions and Kubernetes  -  Rob Richardson  
-18:00 (PT) | 02:00 (UTC) | 20:00 (Local)
+- [Slides](Nassi_.NET Conf.pdf)
+- [Video](https://www.youtube.com/watch?v=IJ1BRSLZDgg&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=35)
+
+### Level-up Your DevOps with GitHub Actions and Kubernetes
+[Rob Richardson](https://twitter.com/rob_rich)
 
 Are you looking to rapidly deploy your content? Are Docker containers in your future? Come for this demo-only presentation where we start from scratch, build up a DevOps pipeline with GitHub Actions, and deploy to Kubernetes. Once setup, commit, and watch the magic flow into place.
 
-Migrating a Windows Forms App to Blazor: The Amazing and True Story of GIFBot  -  Georgia Nelson  
-18:30 (PT) | 02:30 (UTC) | 20:30 (Local)
+- Slides
+- [Video](https://www.youtube.com/watch?v=TMbXwNtuAJo&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=36)
+
+### Migrating a Windows Forms App to Blazor: The Amazing and True Story of GIFBot
+[Georgia Nelson](https://twitter.com/fiercekittenz)
 
 In this talk, I will discuss the migration steps undertaken to go from a complex Desktop application to a robust ASP.NET-backed website with a Blazor front-end. The talk will highlight the ease at which I was able to translate functionality as a developer with very outdated web development skills.
 
-Create a Text Parser in C# with ANTLR  -  Robin Reynolds-Haertle  
-19:00 (PT) | 03:00 (UTC) | 21:00 (Local)
+- Slides
+- [Video](https://www.youtube.com/watch?v=NRDdu67VJH0&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=37)
+
+### Create a Text Parser in C# with ANTLR
+[Robin Reynolds-Haertle](https://twitter.com/geysergazer)
 
 Caught with an unusual data format and want to convert it to something more friendly? Instead of writing buckets of string manipulation code, use ANTLR and C# to parse and make sense of that data. This talk will cover interesting uses of ANTLR and demonstrate parsing a unique data format.
 
-Asynchronous Courotines with C#  -  Andrew Nosenko  
-19:30 (PT) | 03:30 (UTC) | 21:30 (Local)
+- Slides
+- [Video](https://www.youtube.com/watch?v=lc9JlXyBG4E&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=38)
+
+### Asynchronous Courotines with C#
+[Andrew Nosenko](https://twitter.com/noseratio)
 
 Coroutines are state-machine-style functions that can be suspended, resumed and executed cooperatively by yielding. In C# they are traditionally implemented as IEnumerable. With C# 8+, it's possible to combine "await" and "yield" within the same method, so we can have asynchrony inside coroutines. Come see how.
 
-Bring Intelligence to the Edge with Custom Vision  -  Stefano Tempesta  
-20:00 (PT) | 04:00 (UTC) | 22:00 (Local)
+- [Slides](Nosenko_Asynchronous Coroutines with C#.pptx)
+- [Video](https://www.youtube.com/watch?v=pE6b2Bs3U9Q&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=39)
+
+### Bring Intelligence to the Edge with Custom Vision
+[Stefano Tempesta](https://twitter.com/stefanotempesta)
 
 Get familiar with with Custom Vision, its API and ML algorithms for image classification, and explore an app for image capturing that uses a trained model with Custom Vision based on a custom image dataset.
 
-C# Source Generators - Write Code that Writes Code  -  David Wengier  
-20:30 (PT) | 04:30 (UTC) | 22:30 (Local)
+- Slides
+- [Video](https://www.youtube.com/watch?v=Y1MYveP-smk&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=40)
+
+### C# Source Generators - Write Code that Writes Code
+[David Wengier](https://twitter.com/davidwengier)
 
 With C# 9 there is finally an officially supported mechanism for generating source code into your .NET projects as part of the compiler pipeline. Lets run through how they work, some of the pros and cons, and play around with ideas to get your mind racing with the possibilities.
 
-Setting up Health Checks for an ASP.NET Core application and its Dependencies  -  Clyde D'Souza  
-21:00 (PT) | 05:00 (UTC) | 23:00 (Local)
+- [Slides](Wengier_Source generators.pptx)
+- [Video](https://www.youtube.com/watch?v=3YwwdoRg2F4&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=41)
+
+### Setting up Health Checks for an ASP.NET Core application and its Dependencies
+[Clyde D'Souza](https://twitter.com/clydedz)
 
 Site availability is crucial for the reputation and revenue of a business. In this session, we're going to look at setting up health checks for our ASP.NET Core application, its dependencies, and what your end-to-end transparent site uptime monitoring and reporting system might look like.
 
-Maximising Algorithm Performance in .NET: Levenshtein Distance  -  James Turner  
-21:30 (PT) | 05:30 (UTC) | 23:30 (Local)
+- [Slides](D'Souza_healthcheck-clydedsouza-dotnetconf2020.pptx)
+- [Video](https://www.youtube.com/watch?v=cFslS0b_2dg&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=42)
+
+### Maximising Algorithm Performance in .NET: Levenshtein Distance
+[James Turner](https://twitter.com/MrTurnerj)
 
 With performance tricks you may not know on an algorithm you may never have heard of before, be prepared to learn about my journey from different array structures to pointers, SIMD to threading, as we take the journey to maximum performance together.
 
-Enterprise Search Engine with Azure Cognitive Search and Unsupervised Machine Learning  -  Priyanka Shah  
-22:00 (PT) | 06:00 (UTC) | 00:00 (Local)
+- [Slides](Turner_dotnetconf2020-levenshtein-distance.pptx)
+- [Video](https://www.youtube.com/watch?v=JiOYajl2Mds&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=43&t=10s)
+
+### Enterprise Search Engine with Azure Cognitive Search and Unsupervised Machine Learning
+[Priyanka Shah](https://twitter.com/fuzzymind1)
 
 Is your search engine missing word semantics? What if I want my search for "electric cars" to give me results for "green energy", or a search for "lithium" give results about "dry cells". Experience the power of cognitive search, topic modelling, neural word embedding with unsupervised ML to achieve this.
 
-Building Reusable Rich UI controls using PowerApps Component Framework (PCF)  -  Dharanidharan Balasubramaniam   Jeevarajan Kumar  
-22:30 (PT) | 06:30 (UTC) | 00:30 (Local)
+- Slides
+- [Video](https://www.youtube.com/watch?v=76jqiQTDxpw&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=44)
 
-The Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps and provides enhanced user experiences for users working with data on forms, views, and dashboards. In this session, I am going to explain how we can build reusable rich UI controls using the PowerApps Component framework(PCF).
+### Building Reusable Rich UI controls using PowerApps Component Framework (PCF)
+[Dharanidharan Balasubramaniam](https://twitter.com/dharani1743) | [Jeevarajan Kumar](https://twitter.com/crmindian)
 
-Architecting Cloud Native Application in Azure using .NET Core  -  Menaka Baskar  
-23:00 (PT) | 07:00 (UTC) | 01:00 (Local)
+The Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps and provides enhanced user experiences for users working with data on forms, views, and dashboards. In this session, I am going to explain how we can build reusable rich UI controls using the PowerApps Component Framework (PCF).
+
+- Slides
+- [Video](https://www.youtube.com/watch?v=B09iomS9vug&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=45)
+
+### Architecting Cloud Native Application in Azure using .NET Core
+[Menaka Baskar](https://twitter.com/MenakaBasker)
 
 In this session we will discuss about why .NET is a perfect blend to deliver Cloud Native applications.
 
-Controlling My Home Sauna Using .NET 5  -  Johnny Hooyberghs  
-23:30 (PT) | 07:30 (UTC) | 01:30 (Local)
+- Slides
+- [Video](https://www.youtube.com/watch?v=espeHztMDS8&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=46)
+
+### Controlling My Home Sauna Using .NET 5
+[Johnny Hooyberghs](https://twitter.com/djohnnieke)
 
 Today, .NET can really run everywhere. Come see how I was able to completely modernize my sauna controller by using .NET on a Raspberry Pi with Gpio support, .NET on Xamarin Forms, and .NET in a Docker container on a Linux host.
+
+- [Slides](Hooyberghs_controlling-my-home-sauna-using-dotnet5.pdf)
+- [Video](https://www.youtube.com/watch?v=kkRqnYbVYuY&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=47)
