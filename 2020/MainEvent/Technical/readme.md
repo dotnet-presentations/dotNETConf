@@ -52,7 +52,7 @@ Want to move to .NET 5? In this session you'll see how to approach porting proje
 
 Use C#, .NET classes, and LINQ to interact with databases like Sqlite, Azure SQL Server and even Azure Cosmos DB from .NET 5 apps with Entity Framework Core. See the latest features in action like many-to-many, table-per-type and new diagnostics features.
 
-- Slides
+- [Slides](Likness_dotnetconf-efcore5-next-gen.pptx)
 - [Video](https://www.youtube.com/watch?v=BIImyq8qaD4&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=8)
 
 ### Modern Web Development with Blazor & .NET 5
@@ -133,3 +133,197 @@ gRPC is a high-performance RPC framework used by developers around the world to 
 Wind down a little from the day's sessions and learn some fun new things.
 
 - [Video](https://www.youtube.com/watch?v=28D_roo3cUw&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=18)
+
+## Day 2
+### GitHub + Visual Studio ❤ .NET
+[Vix Rian](https://twitter.com/vixgrows) | [Andy Sterland](https://twitter.com/andysterland)
+
+GitHub and Visual Studio technologies have evolved and provide unique productivity enhancements to all .NET developers. Join this demo-filled session to see how it benefits you.
+
+- [Slides](Rian_dotnetconf2020-GitHub Codespaces.pptx)
+- [Video](https://www.youtube.com/watch?v=YqeIuTYdX4c&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=19)
+
+### Effectively Diagnose and Debug .NET Apps in Visual Studio
+[Mark Downie](https://twitter.com/poppastring)
+
+Debug .NET Core running on Linux, master async debugging, and squeeze the last bit of performance out of your apps with the new features in Visual Studio.
+
+- [Slides](Downie_dotnetConf - 20201103 - Effectively diagnose and debug .NET in Visual Studio.pptx)
+- [Video](https://www.youtube.com/watch?v=cOYFDD3tU38&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=20)
+
+### What’s New in Visual Studio 2019 and beyond
+[Caty Caldwell](https://twitter.com/catycaldwell)
+
+Learn what’s new in latest Visual Studio 2019 as well as features the team is currently working on - including some that we’ve never shown to the public before.
+
+- Slides
+- [Video](https://www.youtube.com/watch?v=E17rD75Kn9Q&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=21)
+
+### Improve Your Productivity with Roslyn Analyzers
+[Mika Dumont](https://twitter.com/mika_dumont) | [Kendra Havens](https://twitter.com/gotheap)
+
+Learn about Roslyn Analyzers and how it can supercharge your developer productivity. This session includes tips on how to leverage smart code focused tools, such as code fixes and refactorings and an introduction to write your own customized code fix and refactoring using Roslyn's open source API.
+
+- [Slides](Dumont_Havens_dotnetconf2020-Improve Your Productivity with Roslyn Analyzers.pptx)
+- [Video](https://www.youtube.com/watch?v=Ma1FBFcLqMs&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=22)
+
+### HTTP API Development with .NET, Azure, and OpenAPI: Paper Cuts Begone!
+[Brady Gaster](https://twitter.com/bradygaster)
+
+If you build HTTP APIs in .NET you probably have ceremonies you iterate through because the construction and testing of HTTP APIs hasn't *ever* been easy. Teams all over Microsoft have been working together to make the API development a joyful experience, as you'll see in this end-to-end tour.
+
+- [Slides](gaster-http-apis.pptx)
+- [Video](https://www.youtube.com/watch?v=G7Le65Ln_Qk&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=23)
+
+### Accelerate .NET to Azure with GitHub Actions
+[Isaac Levin](https://twitter.com/isaacrlevin)
+
+GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Easily deploy your .NET Core application to Azure with just one tool, GitHub.
+
+- [Slides](Levin_Accelerate .NET to Azure with GitHub Actions.pptx)
+- [Video](https://www.youtube.com/watch?v=3SP8SgcEFyw&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=24)
+
+### Real-time 3D Games with .NET and Unity
+[John Miller](https://twitter.com/jmillerdev) | [Abdullah Hamed](https://twitter.com/indiesaudi)
+
+Are you curious how to take your .NET skills to 25+ platforms like VR, AR, Xbox, and Switch to make amazing games and apps? Join this session to learn more about the Unity real-time 3D development platform and how your .NET skills can give you a head start towards that next big idea.
+
+- [Slides](Miller_Hamed_dotnetconf-2020-UnityTools.pptx)
+- [Video](https://www.youtube.com/watch?v=1RDFU4ZJAD4&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=25)
+
+### Introducing the New and Improved Azure SDK for .NET
+[Jeffrey Richter](https://twitter.com/jeffrichter)
+
+Come learn about the new Azure SDK for .NET and the improvements to performance, authentication and configuration that we have been working on in the last couple of years.
+
+- [Slides](Richter-The New & Improved Azure SDK for .NET.pptx)
+- [Video](https://www.youtube.com/watch?v=v36NXLU3TLY&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=26)
+
+### The Missing Piece - Diving into the World of Big Data with .NET for Apache Spark
+[Rahul Potharaju](https://twitter.com/rahulpotharaju) | [Jeremy Likness](https://twitter.com/jeremylikness)
+
+Data is growing at an unprecedented amount with both human generated and machine generated data. Come, learn about the open-source, .NET for Apache Spark project, the same technology that teams such as Office, Dynamics and Azure use widely to process 100s of Terabytes of data inside Microsoft.
+
+- Slides
+- [Video](https://www.youtube.com/watch?v=wRN6ExbW7kA&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=27)
+
+### Collecting ASP.NET Core Performance Traces in a Kubernetes Cluster
+[Mike Rousos](https://twitter.com/mjrousos)
+
+Do you need to gather data on CPU usage, memory usage, or other potential performance issues for a containerized ASP.NET Core app? This talk will cover what you need to know to collect performance traces from ASP.NET Core apps running in a Kubernetes cluster.
+
+- [Slides](Rousos_dotnetconf-aks-diagnostics.pptx)
+- [Video](https://www.youtube.com/watch?v=NxU6kphrCAg&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=28)
+
+### Secretless Development from Local to Cloud with the New Azure SDKs, Project Tye, and Kubernetes
+[Jon Gallant](https://twitter.com/jongallant)
+
+Are you tired of managing secrets for local and cloud development? With the new Azure SDKs you can rid your applications of secrets with the new Azure Identity library. Come see how we implemented a secretless solution from local development with Project Tye to Azure Kubernetes Service.
+
+- Slides
+- [Video](https://www.youtube.com/watch?v=IgYXJ4ZHuas&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=29)
+
+### Bringing .NET Interactive to Azure Data Studio Notebooks
+[Alan Yu](https://twitter.com/alanyusql) | [Jon Sequeira](https://twitter.com/jonsequitur)
+
+Azure SQL customers love Jupyter notebooks, especially having dedicated SQL, PowerShell, and C# kernels. This was a perfect opportunity to partner with the .NET interactive team to provide a consistent notebook experience. Come listen to our open source collaboration journey to make this possible.
+
+- Slides
+- [Video](https://www.youtube.com/watch?v=938jBJ-tK3c&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=30)
+
+### Secure DevOps with the Microsoft Identity Platform
+[Christos Matskas](https://twitter.com/ChristosMatskas) | [John Dandison](https://twitter.com/AzureAndChill)
+
+Supercharge your devops skills and learn how to deploy and run your solutions securely in Azure using the Microsoft Identity Platform, ARM, service principals and Managed Identities. In this demo-rich session, you'll find out how to leverage the right tools and elevate DevOps to the next level!
+
+- [Slides](Matskas_Dandison_dotnetconf2020-Secure Dev Ops.pptx)
+- [Video](https://www.youtube.com/watch?v=Spprpp1o5nM&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=31)
+
+### Get Your JAM On
+[Aaron Powell](https://twitter.com/slace)
+
+You are embarking on a new project and have decided to go full Serverless and try out that JAMStack. After all, our application is a Blazor WASM app and some APIs, so Serverless is the perfect fit. But how do we design this solution, tackle local development and most importantly deploy to the cloud? In this session, you'll see how.
+
+- [Slides](Powell_2020-get-your-jam-on-dotnetconf.pptx)
+- [Video](https://www.youtube.com/watch?v=9cwOsW5KBm0&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=32)
+
+### Migrate & Modernize ASP.NET Applications with Azure App Service and .NET 5
+[Gaurav Seth](https://twitter.com/segaurav) | [Byron Tardif](https://twitter.com/bktv99)
+
+Learn how to modernize .NET Framework Apps, by migrating to App Service and 5 ways to get started with .NET 5 on App Service.
+
+- Slides
+- [Video](https://www.youtube.com/watch?v=hel9PC0G0KA&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=33)
+
+### Blazor: Client Side vs. Server Side: Hands on Development and Deployment
+[Dr. Otto Dobretsberger](https://twitter.com/OttoD)
+
+We will look at the main differences between Client Side Blazor, and Server Side Blazor. We will discuss situations and scenarios in which one should be favored over the other. We will develop a small app & deploy it twice on Azure: As a Client Side Blazor App, and as a Server Side Blazor App.
+
+- [Slides](dotnetconf2020-deck-Dobretsberger.pptx)
+- [Video](https://www.youtube.com/watch?v=-FDQX1jmj64&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=34)
+
+Setting Up Feature Flags with .NET  -  Talia Nassi  
+17:30 (PT) | 01:30 (UTC) | 19:30 (Local)
+
+Let's set up feature flags with .NET! We will walk through how to create a feature flag in the UI, install dependencies, and implement your feature flag in your .NET app.
+
+Level-up Your DevOps with GitHub Actions and Kubernetes  -  Rob Richardson  
+18:00 (PT) | 02:00 (UTC) | 20:00 (Local)
+
+Are you looking to rapidly deploy your content? Are Docker containers in your future? Come for this demo-only presentation where we start from scratch, build up a DevOps pipeline with GitHub Actions, and deploy to Kubernetes. Once setup, commit, and watch the magic flow into place.
+
+Migrating a Windows Forms App to Blazor: The Amazing and True Story of GIFBot  -  Georgia Nelson  
+18:30 (PT) | 02:30 (UTC) | 20:30 (Local)
+
+In this talk, I will discuss the migration steps undertaken to go from a complex Desktop application to a robust ASP.NET-backed website with a Blazor front-end. The talk will highlight the ease at which I was able to translate functionality as a developer with very outdated web development skills.
+
+Create a Text Parser in C# with ANTLR  -  Robin Reynolds-Haertle  
+19:00 (PT) | 03:00 (UTC) | 21:00 (Local)
+
+Caught with an unusual data format and want to convert it to something more friendly? Instead of writing buckets of string manipulation code, use ANTLR and C# to parse and make sense of that data. This talk will cover interesting uses of ANTLR and demonstrate parsing a unique data format.
+
+Asynchronous Courotines with C#  -  Andrew Nosenko  
+19:30 (PT) | 03:30 (UTC) | 21:30 (Local)
+
+Coroutines are state-machine-style functions that can be suspended, resumed and executed cooperatively by yielding. In C# they are traditionally implemented as IEnumerable. With C# 8+, it's possible to combine "await" and "yield" within the same method, so we can have asynchrony inside coroutines. Come see how.
+
+Bring Intelligence to the Edge with Custom Vision  -  Stefano Tempesta  
+20:00 (PT) | 04:00 (UTC) | 22:00 (Local)
+
+Get familiar with with Custom Vision, its API and ML algorithms for image classification, and explore an app for image capturing that uses a trained model with Custom Vision based on a custom image dataset.
+
+C# Source Generators - Write Code that Writes Code  -  David Wengier  
+20:30 (PT) | 04:30 (UTC) | 22:30 (Local)
+
+With C# 9 there is finally an officially supported mechanism for generating source code into your .NET projects as part of the compiler pipeline. Lets run through how they work, some of the pros and cons, and play around with ideas to get your mind racing with the possibilities.
+
+Setting up Health Checks for an ASP.NET Core application and its Dependencies  -  Clyde D'Souza  
+21:00 (PT) | 05:00 (UTC) | 23:00 (Local)
+
+Site availability is crucial for the reputation and revenue of a business. In this session, we're going to look at setting up health checks for our ASP.NET Core application, its dependencies, and what your end-to-end transparent site uptime monitoring and reporting system might look like.
+
+Maximising Algorithm Performance in .NET: Levenshtein Distance  -  James Turner  
+21:30 (PT) | 05:30 (UTC) | 23:30 (Local)
+
+With performance tricks you may not know on an algorithm you may never have heard of before, be prepared to learn about my journey from different array structures to pointers, SIMD to threading, as we take the journey to maximum performance together.
+
+Enterprise Search Engine with Azure Cognitive Search and Unsupervised Machine Learning  -  Priyanka Shah  
+22:00 (PT) | 06:00 (UTC) | 00:00 (Local)
+
+Is your search engine missing word semantics? What if I want my search for "electric cars" to give me results for "green energy", or a search for "lithium" give results about "dry cells". Experience the power of cognitive search, topic modelling, neural word embedding with unsupervised ML to achieve this.
+
+Building Reusable Rich UI controls using PowerApps Component Framework (PCF)  -  Dharanidharan Balasubramaniam   Jeevarajan Kumar  
+22:30 (PT) | 06:30 (UTC) | 00:30 (Local)
+
+The Power Apps component framework empowers professional developers and app makers to create code components for model-driven and canvas apps and provides enhanced user experiences for users working with data on forms, views, and dashboards. In this session, I am going to explain how we can build reusable rich UI controls using the PowerApps Component framework(PCF).
+
+Architecting Cloud Native Application in Azure using .NET Core  -  Menaka Baskar  
+23:00 (PT) | 07:00 (UTC) | 01:00 (Local)
+
+In this session we will discuss about why .NET is a perfect blend to deliver Cloud Native applications.
+
+Controlling My Home Sauna Using .NET 5  -  Johnny Hooyberghs  
+23:30 (PT) | 07:30 (UTC) | 01:30 (Local)
+
+Today, .NET can really run everywhere. Come see how I was able to completely modernize my sauna controller by using .NET on a Raspberry Pi with Gpio support, .NET on Xamarin Forms, and .NET in a Docker container on a Linux host.
