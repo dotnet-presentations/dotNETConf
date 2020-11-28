@@ -295,7 +295,7 @@ Caught with an unusual data format and want to convert it to something more frie
 - Slides
 - [Video](https://www.youtube.com/watch?v=lc9JlXyBG4E&list=PLdo4fOcmZ0oVWop1HEOml2OdqbDs6IlcI&index=38)
 
-### Asynchronous Courotines with C#
+### Asynchronous Coroutines with C#
 [Andrew Nosenko](https://twitter.com/noseratio)
 
 Coroutines are state-machine-style functions that can be suspended, resumed and executed cooperatively by yielding. In C# they are traditionally implemented as IEnumerable. With C# 8+, it's possible to combine "await" and "yield" within the same method, so we can have asynchrony inside coroutines. Come see how.
