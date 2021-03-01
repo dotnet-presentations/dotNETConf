@@ -1,5 +1,5 @@
 # ".NET Conf: Focus on Windows" is a wrap!
-[![](Creative/dotNETConf_800x266_email_eventInfo.png)](https://focus.dotnetconf.net)
+[![](Creative/Windows-550x182.png)](https://focus.dotnetconf.net)
 
 ## Thank you!
 
