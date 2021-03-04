@@ -77,7 +77,7 @@ Take a break and grab some food while Jeff interviews Kayla Cinnamon from the Wi
 
 Running your desktop applications on ARM devices natively can significantly speed up performance for your end users. Fortunately, Windows Forms and WPF on ARM64 is coming in .NET 6. See how you can upgrade your desktop apps to take advantage of ARM64.
 
-- Slides
+- [Slides](dotnetconf-bringing-your-windows-forms-and-wpf-apps-to-arm-devices.pptx)
 - [Video](https://www.youtube.com/watch?v=B4Jc8LE-B2M&list=PLdo4fOcmZ0oUQ42lnr4bDYfStYe_5rKS0&index=9)
 
 ### Deploying Windows Apps with ClickOnce on .NET 5
