@@ -10,8 +10,8 @@ A huge THANK YOU to all who tuned in live, asked questions, and participated in 
 ## Recordings 
 Watch all the sessions on demand on [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oUQ42lnr4bDYfStYe_5rKS0) or [Channel9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Windows).
 
-## Technical (Coming soon)
-Session decks and demos that were shown can be found in the `Technical` folder. 
+## Technical
+Session decks and demos that were shown can be found in the [`Technical`](Technical) folder. 
 
 ## Stay in touch
 [Subscribe to notifications](http://eepurl.com/gvEhgX) to keep up with .NET Conf news and join the conversation [#dotNETConf](https://twitter.com/search?q=%23dotnetconf).
