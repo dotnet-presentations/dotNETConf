@@ -2,7 +2,7 @@
     "name": "dotnet-purple-theme",
     "displayName": ".NET Purple Theme",
     "description": "A theme for .NET fans and all those who love purple.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "preview": true,
     "publisher": "dotnetconfteam",
     "license": "MIT",
