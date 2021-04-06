@@ -101,7 +101,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#9E9E9E"
 			}
 		},
 		{
