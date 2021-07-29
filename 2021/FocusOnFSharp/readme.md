@@ -1,5 +1,5 @@
 # ".NET Conf: Focus on F#" 
-[![](Creative/FSharp-550x182.png)](https://focus.dotnetconf.net)
+[![](Creative/FSharp%20550x182.png)](https://focus.dotnetconf.net)
 
 
 ## Recordings (Coming soon)
