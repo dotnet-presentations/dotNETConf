@@ -1,9 +1,9 @@
 # ".NET Conf: Focus on F#" 
-[![](Creative/FSharp-550x182.png)](https://focus.dotnetconf.net)
+[![](Creative/FSharp%20550x182.png)](https://focus.dotnetconf.net)
 
 
 ## Recordings (Coming soon)
-Watch all the sessions on demand on [.NET YouTube Channel](https://www.youtube.com/dotnet) or [Channel9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-Windows).
+Watch all the sessions on demand on [.NET YouTube Channel](https://www.youtube.com/dotnet) or [Channel9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-FSharp).
 
 ## Technical (Coming soon)
 Session decks and demos that were shown can be found in the `Technical` folder. 
