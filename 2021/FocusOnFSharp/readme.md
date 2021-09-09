@@ -2,10 +2,10 @@
 [![](Creative/FSharp%20550x182.png)](https://focus.dotnetconf.net)
 
 
-## Recordings (Coming soon)
-Watch all the sessions on demand on [.NET YouTube Channel](https://www.youtube.com/dotnet) or [Channel9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-FSharp).
+## Recordings 
+Watch all the sessions on demand on [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oV2uhlVIItfXxuRXsv-gXD5) or [Channel9](https://channel9.msdn.com/Events/dotnetConf/Focus-on-FSharp).
 
-## Technical (Coming soon)
+## Technical 
 Session decks and demos that were shown can be found in the `Technical` folder. 
 
 ## Stay in touch
