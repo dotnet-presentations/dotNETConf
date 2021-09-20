@@ -8,7 +8,7 @@
 # Community-run Events
 Communities across the world self-organize local .NET Conf events every year to help spread the word about the .NET releases. These events can be virtual or in-person depending on your local area health and safety guidelines. The .NET Foundation is supporting community-run virtual events again this year through their virtual meetup group. We will advertize your community event on the main event website, YouTube and social. 
 
-**Interested in organizing a local event? Stay tuned on how you can sign up! We'll have all the details here soon.**
+**Interested in organizing a local event? Complete [this survey form by October 20](https://aka.ms/dotnetconf-virtual-event) so we can promote your event(s).**
 
 # Event Guidelines
 You are free to organize a presentation, workshop, or hack-a-thon anytime after the main event broadcast until January 31, 2021.
