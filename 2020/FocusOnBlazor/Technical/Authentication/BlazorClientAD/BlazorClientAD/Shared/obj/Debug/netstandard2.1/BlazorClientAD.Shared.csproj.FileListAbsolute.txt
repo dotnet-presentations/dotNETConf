@@ -1,7 +1,0 @@
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\bin\Debug\netstandard2.1\BlazorClientAD.Shared.deps.json
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\bin\Debug\netstandard2.1\BlazorClientAD.Shared.dll
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\bin\Debug\netstandard2.1\BlazorClientAD.Shared.pdb
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\obj\Debug\netstandard2.1\BlazorClientAD.Shared.AssemblyInfoInputs.cache
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\obj\Debug\netstandard2.1\BlazorClientAD.Shared.AssemblyInfo.cs
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\obj\Debug\netstandard2.1\BlazorClientAD.Shared.dll
-C:\TEMP\BlazorClientAD\BlazorClientAD\Shared\obj\Debug\netstandard2.1\BlazorClientAD.Shared.pdb
