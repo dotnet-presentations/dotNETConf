@@ -2,7 +2,7 @@
 *This repo contains creative and technical content for running a .NET Conf 2021 event for your community.*
 
 [![](Creative/550x182-banner.png)](https://www.dotnetconf.net)
-## November 9 - 1, 2021 [www.dotnetconf.net](https://www.dotnetconf.net)
+## November 9 - 11, 2021 [www.dotnetconf.net](https://www.dotnetconf.net)
 .NET Conf is a free, three-day, virtual developer event that celebrates the major releases of the .NET development platform. It is co-organized by the .NET community and Microsoft, and sponsored by the .NET Foundation and our ecosystem partners. Come celebrate and learn about what you can do with .NET 6.
 
 # Community-run Events
