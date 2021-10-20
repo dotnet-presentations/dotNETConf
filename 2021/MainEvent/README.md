@@ -11,7 +11,7 @@ Communities across the world self-organize local .NET Conf events every year to 
 **Interested in organizing a local event? Complete [this survey form](https://aka.ms/dotnetconf-virtual-event) so we can promote your event(s).**
 
 # Event Guidelines
-You are free to organize a presentation, workshop, or hack-a-thon anytime after the main event broadcast until January 31, 2021.
+You are free to organize a presentation, workshop, or hack-a-thon anytime after the main event broadcast until January 31, 2022.
 
 The technical content needs to be .NET related and preferably on .NET 6. Topics can include but aren't limited to: ASP.NET, .NET MAUI, Windows, Visual Studio family, C#/F#/Visual Basic, Azure, ML .NET, Entity Framework, .NET open source projects. Basically, anything .NET-related! You can also choose to redeliver any of the content from the show, with proper attribution to the original speakers. 
 
