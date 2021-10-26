@@ -20,4 +20,4 @@ Test prints were created on a stock LulzBot Mini with the following settings:
         Use clippers on supports and frayed filament 
     
 #### Render image:
-![Visual Studio 3D render image](/Images/visual-studio-logo-render.png)
+![Visual Studio 3D render image](Images/visual-studio-logo-render.png)
