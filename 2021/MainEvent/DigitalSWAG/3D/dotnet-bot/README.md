@@ -75,7 +75,11 @@ View controls (Number pad)
     Z: Render modes
 
 ### Visual animation here
+<div style="width: 70%; height: 70%">
+
 ![dotnet-bot 3D model bone illustration](dotnet-bot-3D_bones_ref2.png)
+
+</div>
 
 ***
 
@@ -117,4 +121,8 @@ Settings
     Layer Height 0.25mm
 
 ### Reference
+<div style="width: 60%; height: 60%">
+
 ![dotnet-bot 3D print](dotnet-bot-3D_defaultpose.png)
+
+</div>
