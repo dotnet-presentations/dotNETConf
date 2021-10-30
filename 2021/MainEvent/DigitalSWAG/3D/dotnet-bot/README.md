@@ -2,7 +2,7 @@
 This folder contains multiple file types for the 3D dotnet-bot. 
 
 
-### dotnet-bot Animation
+## dotnet-bot Animation
 File types:
     Blend
     FBX
@@ -14,11 +14,14 @@ File types:
     Bones:
 
         Root: Move, rotate
-        Every bone in the rig will move with this bone. Body, Foot, and IK Knees are parented to this bone.
+        Every bone in the rig will move with this bone. 
+        Body, Foot, and IK Knees are parented to this bone.
 
     Body: Move, rotate
 
-        This bone is parented to the Root bone and has a constant offset with the root bone. Hands, Shoulders, Eyes, Legs, and Antenna are all parented to this bone.
+        This bone is parented to the Root bone 
+        and has a constant offset with the root bone. 
+        Hands, Shoulders, Eyes, Legs, and Antenna are all parented to this bone.
 
     Antenna: Rotate
 
@@ -42,16 +45,18 @@ File types:
 
     Eyes: Rotate
 
-        This bone has a constraint on it that limit its rotation to around the Z-axis -10 to +10 degrees.
+        This bone has a constraint on it that limit its rotation to 
+        around the Z-axis -10 to +10 degrees.
 
     Iris Flipper: Move
 
-
-        Move the bone 1M to the left-hand side of the character to flip the Eyes. This bone is a driver and controls a blend shape that acts as a switch.
+        Move the bone 1M to the left-hand side of the character to flip the Eyes. 
+        This bone is a driver and controls a blend shape that acts as a switch.
 
     Fingers: Rotate
 
-        All fingers have two-point to be used for rotation. Center of hand and knuckle.
+        All fingers have two-point to be used for rotation. 
+        Center of hand and knuckle.
 
 Important Blender Hotkeys
 
@@ -67,10 +72,10 @@ View controls (Number Pad)
     Z: Render modes
 
 Visual animation here: 
-![dotnet-bot 3D model bone illustration](/Images/dotnet-bot-3D_bones_ref2.png)
+![dotnet-bot 3D model bone illustration](images/dotnet-bot-3D_bones_ref2.png)
 
 
-### dotnet-bot 3D printing
+## dotnet-bot 3D printing
 
 The .NET Bot is a 3D printable statue
 
@@ -81,19 +86,26 @@ The .NET Bot is a 3D printable statue
 
 #### Recommendations:
 
-    Materials
-        ABS, PLA
+Materials
 
-    Orientation
-        dotnet-bot should be printed on its feet or back
+    ABS, PLA
 
-    Size
-        4 inches vertical
-        Scaling the model may bring varied results and loss of detail. 
-        For best results make sure your model is set to the recommended size above. 
+Orientation
 
-    Settings 
-        Raft build plate with an extra margin of 1mm
-        Supports enabled
-        Infill 20% or higher
-        Layer Height 0.25mm
+    dotnet-bot should be printed on its feet or back
+
+Size
+       
+    4 inches vertical
+    Scaling the model may bring varied results and loss of detail. 
+    For best results make sure your model is set to the recommended size above. 
+
+Settings 
+
+    Raft build plate with an extra margin of 1mm
+    Supports enabled
+    Infill 20% or higher
+    Layer Height 0.25mm
+
+Orientation
+![dotnet-bot 3D print](images/dotnet-bot-3D_defaultpose.png)
