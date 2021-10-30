@@ -72,7 +72,7 @@ View controls (Number Pad)
     Z: Render modes
 
 Visual animation here: 
-![dotnet-bot 3D model bone illustration](images/dotnet-bot-3D_bones_ref2.png)
+![dotnet-bot 3D model bone illustration](dotnet-bot-3D_bones_ref2.png)
 
 
 ## dotnet-bot 3D printing
@@ -108,4 +108,4 @@ Settings
     Layer Height 0.25mm
 
 Orientation
-![dotnet-bot 3D print](images/dotnet-bot-3D_defaultpose.png)
+![dotnet-bot 3D print](dotnet-bot-3D_defaultpose.png)
