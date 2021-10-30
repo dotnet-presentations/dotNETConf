@@ -1,15 +1,17 @@
-## dotnet-bot-3D
-This folder contains multiple file types for the 3D dotnet-bot. 
-
+# dotnet-bot-3D
+This folder contains .NET bot 3D files and instructions for: Animation & 3D printing.
 
 ## dotnet-bot Animation
-File types:
+#### File types
     Blend
-    FBX
+
+    FBX 
+
     Tpose FBX
 
+
 #### Moving the Rig: Pose mode
-    In Blender, Right click the Rig and go from “object mode” into “Pose mode”.
+In Blender, Right click the Rig and go from “object mode” into “Pose mode”.
 
     Bones:
 
@@ -19,8 +21,8 @@ File types:
 
     Body: Move, rotate
 
-        This bone is parented to the Root bone 
-        and has a constant offset with the root bone. 
+        This bone is parented to the Root bone and has a 
+        constant offset with the root bone. 
         Hands, Shoulders, Eyes, Legs, and Antenna are all parented to this bone.
 
     Antenna: Rotate
@@ -64,48 +66,55 @@ Important Blender Hotkeys
     G: Move // R: Rotate // S: Scale
     X: X Axis // Y: Y Axis // Z: Z Axis
 
-View controls (Number Pad)
+View controls (Number pad)
+
     1: Front
     3: Side
     7: Top
     5: Perspective
     Z: Render modes
 
-Visual animation here: 
+### Visual animation here
 ![dotnet-bot 3D model bone illustration](dotnet-bot-3D_bones_ref2.png)
 
+***
 
-## dotnet-bot 3D printing
+# dotnet-bot 3D printing
 
 The .NET Bot is a 3D printable statue
 
-#### File type:
+### File type
     .STL
     GCODE (set to size dimensions below)
     Blend
 
-#### Recommendations:
+### Recommendations
 
 Materials
-
+    
     ABS, PLA
 
 Orientation
-
+    
     dotnet-bot should be printed on its feet or back
 
 Size
-       
+
     4 inches vertical
+
     Scaling the model may bring varied results and loss of detail. 
+    
     For best results make sure your model is set to the recommended size above. 
 
 Settings 
 
     Raft build plate with an extra margin of 1mm
+
     Supports enabled
+
     Infill 20% or higher
+
     Layer Height 0.25mm
 
-Orientation
+### Reference
 ![dotnet-bot 3D print](dotnet-bot-3D_defaultpose.png)
