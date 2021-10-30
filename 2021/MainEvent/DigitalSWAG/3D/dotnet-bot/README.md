@@ -50,7 +50,7 @@ File types:
 
     Iris Flipper: Move
 
-        Move the bone 1M to the left-hand side of the character to flip the Eyes. 
+        Move the bone 1M to the left-hand side of the character to flip the eyes. 
         This bone is a driver and controls a blend shape that acts as a switch.
 
     Fingers: Rotate
