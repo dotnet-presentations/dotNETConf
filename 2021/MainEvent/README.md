@@ -52,8 +52,3 @@ New to #dotNETConf? Check out the videos from last year and save November 9-11 f
 
 We currently have some digital SWAG you can download on the conference website here [https://dotnetconf.net/swag](https://dotnetconf.net/swag) and we'll be adding a lot more as we get closer to the event!
 
-# Syndication
-
-Instructions coming soon. 
-
-
