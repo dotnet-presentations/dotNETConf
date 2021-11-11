@@ -1,11 +1,14 @@
+# .NET Conf 2021 Code & Slides!
+[![](../Creative/550x182-banner.png)](https://www.dotnetconf.net)
+
 ### Keynote
 [Scott  Hunter](https://twitter.com/coolcsh) [Daniel Roth](https://twitter.com/danroth27) [Maria Naggaga](https://twitter.com/LadyNaggaga) [Mads Torgersen](https://twitter.com/MadsTorgersen) [Maddy Leger Montaquila](http://twitter.com/maddymontaquila) 
 
 Join Scott Hunter and team as they show you all the amazing things you can do with .NET 6.
 
-- Slides
-- Video
-- Demo
+- [Slides](dotNETConf2021-keynote.pptx)
+- [Video](https://channel9.msdn.com/Events/dotnetConf/2021/Keynote)
+- Demo (coming soon!)
 
 ### Post-keynote wrap up
 [Scott  Hunter](https://twitter.com/coolcsh) 
