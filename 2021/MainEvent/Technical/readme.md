@@ -6,7 +6,7 @@
 
 Join Scott Hunter and team as they show you all the amazing things you can do with .NET 6.
 
-- [Slides](dotNETConf2021-keynote.pptx)
+- [Slides](dotnetconf2021-Keynote.pptx)
 - [Video](https://channel9.msdn.com/Events/dotnetConf/2021/Keynote)
 - Demo (coming soon!)
 
