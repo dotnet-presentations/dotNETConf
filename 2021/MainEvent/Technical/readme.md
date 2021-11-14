@@ -41,7 +41,7 @@ Blazor in .NET 6 gives you the functionality you need to build real world apps o
 
 F# 6 is all about modernizing and simplifying the experience of learning and using F#.  This applies to the language design, library, performance and tooling. The most significant technical feature in F# 6 is a new mechanism for authoring async tasks that is easier and faster. List and arrays also got faster – in some cases 4 times faster! Language simplification includes more consistent rules for indentation, more implicit conversions, and letting you skip that period between an identifier and the square bracket of an index. You’ll find five new operations on collections and be able to access Keys and Values of a Map. Tooling is also improved  with better performance, pipeline debugging, and better access to C# projects in your solution. Come hear more about F# 6!
 
-- [Slides](Dollard-Syme_Whats_new_in_F#_6.pptx)
+- [Slides](Dollard-Syme_Whats_new_in_FSharp_6.pptx)
 - [Video](https://channel9.msdn.com/Events/dotnetConf/2021/Whats-New-in-F-6)
 
 ### Speed up your .NET development with Hot Reload
