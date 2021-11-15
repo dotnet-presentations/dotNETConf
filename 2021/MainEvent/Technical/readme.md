@@ -27,6 +27,7 @@ C# 10 brings many improvements focused around enabling cleaner and simpler code 
 
 Blazor in .NET 6 gives you the functionality you need to build real world apps of any size and complexity. In this session we'll look at the new Blazor features in .NET 6 for practical web app development. We'll look at the new support for Hot Reload,  error boundaries, state preservation during prerendering, faster file uploads, query string handling, adding page metadata, and integrating Blazor components into existing JavaScript based apps.
 
+- [Slides](Roth_Enterprise-grade_Blazor_apps_with_.NET6.pptx)
 - [Video](https://channel9.msdn.com/Events/dotnetConf/2021/Enterprise-grade-Blazor-apps-with-NET-6)
 
 ### Introduction to .NET MAUI
@@ -77,6 +78,7 @@ In this talk, Safia and Stephen, developers from the ASP.NET team, will introduc
 
 ASP.NET Core & Razor Pages are the foundations for many modern web apps. Check out what's new for ASP.NET Core MVC & Razor Pages in .NET 6 including Hot Reload, nullability checking, CSS isolation, Bootstrap 5, async streaming, IAsyncDisposable support, and faster build times.
 
+- [Slides](Roth_ASP.NET_Core_MVC_Razor_Pages_in_.NET6.pptx)
 - [Video](https://channel9.msdn.com/Events/dotnetConf/2021/ASPNET-Core-MVC--Razor-Pages-in-NET-6)
 
 ### Next-generation Blazor components with .NET 6
@@ -84,6 +86,7 @@ ASP.NET Core & Razor Pages are the foundations for many modern web apps. Check o
 
 Blazor in .NET 6 enables building even more powerful and flexible web UI components. In this session we'll look at the new improvements to the Blazor component model, including required component parameters, generic type inference from ancestor components, JavaScript initializers, and handling of static web assets.
 
+- [Slides](Roth_Next-generation_Blazor_components_with_.NET6.pptx)
 - [Video](https://channel9.msdn.com/Events/dotnetConf/2021/Next-generation-Blazor-components-with-NET-6)
 
 ### What's New in EF Core 6
