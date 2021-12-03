@@ -8,7 +8,7 @@ Join Scott Hunter and team as they show you all the amazing things you can do wi
 
 - [Slides](dotnetconf2021-Keynote.pptx)
 - [Video](https://channel9.msdn.com/Events/dotnetConf/2021/Keynote)
-- Demo (coming soon!)
+- [Demos - .NET Podcasts](https://github.com/microsoft/dotnet-podcasts)
 
 ### Post-keynote wrap up
 [Scott  Hunter](https://twitter.com/coolcsh) 
