@@ -74,6 +74,7 @@ In this session, learn about what makes up a MAUI application! .NET MAUI single 
 - [Slides]
 - [Demo]
 
+-->
 
 ### Code Reuse with .NET MAUI
 
@@ -83,8 +84,8 @@ While .NET MAUI is the next generation of .NET cross-platform development, there
 
 
 - [Video]
-- [Slides]
-- [Demo]
+- [Slides](CodeReuseMAUI.pdf)
+- [Demos](https://github.com/samidip)
 
 
 ### Zero to Mobile Database Hero - Learn to create online/offline data storage capable cross-platform apps in &lt; 30 minutes
@@ -95,16 +96,17 @@ Storage of data is a core part of of many applications. Historically, when you a
 
 
 - [Video]
-- [Slides]
-- [Demo]
+- [Slides](Zero%20to%20Mobile%20Database%20Hero%20-%20Learn%20to%20create%20online%20offline%20data%20storage%20capable%20cross-platform%20apps%20in%2030%20minutes%20-%20Without%20Slide%20Notes.pptx)
+- [Demo](https://github.com/lucecarter/housemovingassistant)
+- [Notes](https://gist.github.com/LuceCarter/4603445b2133c855806ac913535a7813)
 
+<!--
 
 ### C# 11: The highlights
 
 [Mads Torgersen](https://twitter.com/MadsTorgersen) 
 
 Mads takes a whirlwind tour through the language features in the upcoming C# 11. Static virtual members, list patterns, required properties and raw string literals are all among the new tools in your toolbox for writing cleaner, safer, more general and more concise code in C#.
-
 
 - [Video]
 - [Slides]
