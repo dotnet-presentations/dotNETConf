@@ -11,7 +11,7 @@ Maddy and David open the day with an introduction to .NET Multi-platform App UI,
 - [Demo - .NET Podcasts](https://github.com/microsoft/dotnet-podcasts)
 - [Demo - .NET Point of Sale](https://github.com/dotnet/maui-samples/tree/main/6.0/Apps/PointOfSale)
 
-
+<!---
 ### Setting up shop for .NET MAUI
 
 [Gerald Versluis](https://twitter.com/jfversluis) 
@@ -166,3 +166,4 @@ After all of the excellent topics today let&#x27;s kick back and enjoy a good ga
 - [Video]
 - [Slides]
 - [Demo]
+-->
