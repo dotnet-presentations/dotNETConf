@@ -1,4 +1,4 @@
-# ".NET Conf: Focus on Windows" Code & Slides
+# ".NET Conf: Focus on MAUI" Code & Slides
 
 ## Coming soon!
 
