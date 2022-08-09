@@ -36,7 +36,7 @@ Securing customer information is of paramount importance. Come and learn how, us
 
 - [Video]
 - [Slides]
-- [Demo]
+- [Demo](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/tree/main/tests/devapps/MauiApps)
 
 
 ### Building Beautiful apps for Mac using .NET MAUI
