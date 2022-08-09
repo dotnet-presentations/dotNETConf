@@ -1,5 +1,12 @@
 # ".NET Conf: Focus on MAUI" Code & Slides
 
-## Coming soon!
+[![](../Creative/MAUI%20550x182.png)](https://focus.dotnetconf.net)
 
-This part of the repo contains the links to the slides and code samples from our speakers. We will add more content as it comes in from the presenters.
+### Keynote
+[David Ortinau](https://twitter.com/DavidOrtinau) [Maddy Leger Montaquila](http://twitter.com/maddymontaquila) 
+
+Maddy and David open the day with an introduction to .NET Multi-platform App UI, why it's an important framework for .NET developers, and some of the momentum they're seeing in the .NET ecosystem around native client development.
+
+- [Slides](dotnetconf-MAUI-Keynote.pptx)
+- [Demo - .NET Podcasts](https://github.com/microsoft/dotnet-podcasts)
+- [Demo - .NET Point of Sale](https://github.com/dotnet/maui-samples/tree/main/6.0/Apps/PointOfSale)
