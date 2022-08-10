@@ -84,7 +84,7 @@ While .NET MAUI is the next generation of .NET cross-platform development, there
 
 
 - [Video]
-- [Slides](CodeReuseMAUI.pdf)
+- [Slides](CodeReuseMAUI.pptx) / [PDF](CodeReuseMAUI.pdf)
 - [Demos](https://github.com/samidip)
 
 
