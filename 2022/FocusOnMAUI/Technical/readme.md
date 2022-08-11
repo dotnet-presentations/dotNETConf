@@ -14,7 +14,6 @@ Maddy and David open the day with an introduction to .NET Multi-platform App UI,
 > **Note** 
 > More be added as soon as we get them, keep checking back!
 
-<!---
 ### Setting up shop for .NET MAUI
 
 [Gerald Versluis](https://twitter.com/jfversluis) 
@@ -22,7 +21,7 @@ Maddy and David open the day with an introduction to .NET Multi-platform App UI,
 With all this content about .NET MAUI it&#x27;s easy to forget that there comes one step before building amazing apps: setting up your development environment! In this session I will give you an overview of what is involved with setting up your dev box to start developing with .NET MAUI. After this session you will know what to install, how to configure the pieces together and how to run your first .NET MAUI app!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=-oP7rB69gcc&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=2)
 - [Slides]
 - [Demo]
 
@@ -34,7 +33,7 @@ With all this content about .NET MAUI it&#x27;s easy to forget that there comes 
 Securing customer information is of paramount importance. Come and learn how, using MSAL.NET, you can add authentication of users to your MAUI app, and call a protected web API on behalf of the signed-in user! This session briefly explains OAuth 2.0, and how your app can use MSAL.NET to sign-in a user and get an access token for a protected API. It covers both Azure Active Directory and Azure AD B2C users. B2C user should be able to login in the app using their Facebook, Google, and Microsoft accounts.
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=QO8XKsJ51Gc&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=3)
 - [Slides]
 - [Demo](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/tree/main/tests/devapps/MauiApps)
 
@@ -46,7 +45,7 @@ Elizabeth Hare
 .NET MAUI support for Visual Studio 2022 for Mac is in preview! Join Elizabeth Hare for a tour of the new VS Mac experience and a demo of .NET MAUI capabilities that you can try today!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=bnoCU5XGBh4&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=5)
 - [Slides]
 - [Demo]
 
@@ -58,7 +57,7 @@ Elizabeth Hare
 Blazor uses the latest open web standards to enable full stack web development with .NET. But what if you need to build a native client app? Blazor has expanded beyond the web to enable building native client apps using a hybrid of web technologies and .NET. In this session we&#x2019;ll look at the new Blazor Hybrid support in .NET MAUI for building cross-platform native client apps for mobile, desktop using your existing Blazor web UI components.
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=bnoCU5XGBh4&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=5)
 - [Slides]
 - [Demo]
 
@@ -70,11 +69,9 @@ McKenna Barlow
 In this session, learn about what makes up a MAUI application! .NET MAUI single project takes care of collecting all the development experiences from the different target platforms and abstracts them into a single shared project so that you can have a simplified and consistent cross-platform development experience across all target platforms. Come learn about MAUI application architecture and some of the cool features you can take advantage of!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=k5RcFXlYBpI&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=6)
 - [Slides]
 - [Demo]
-
--->
 
 ### Code Reuse with .NET MAUI
 
@@ -83,7 +80,7 @@ In this session, learn about what makes up a MAUI application! .NET MAUI single 
 While .NET MAUI is the next generation of .NET cross-platform development, there are plenty of ways to reuse existing code &amp; skills. Migration &amp; reusability from Xamarin.Forms to .NET MAUI should be natural - tools can help. .NET code &amp; styling can now be shared seamlessly between web, desktop &amp; mobile. Blazor is very welcome in .NET MAUI and developers can do all the native mobile/desktop things with Blazor code, while reusing shared Blazor components between web/.NET MAUI/WPF/WinForms. JavaScript code with Angular or React is also welcome on native mobile/desktop apps with .NET MAUI. Let&#x27;s explore the future of portability &amp; developer productivity with .NET MAUI.
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=bV7zPZT4Mkw&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=7)
 - [Slides](CodeReuseMAUI.pptx) / [PDF](CodeReuseMAUI.pdf)
 - [Demos](https://github.com/samidip)
 
@@ -95,12 +92,10 @@ While .NET MAUI is the next generation of .NET cross-platform development, there
 Storage of data is a core part of of many applications. Historically, when you ask developers about databases, they will talk to you about SQLite. But this is not the only way! In this session, Luce will introduce you to the powerful Developer Data Platform of MongoDB and how their cloud-hosted products, including Realm can allow you to easily store, query and manipulate data, with automatic online/offline sync, authentication and more. You will go away feeling more confident to turn your back on SQL and embrace the power of the document data model!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=UNR1aphXtjI&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=8)
 - [Slides](Zero%20to%20Mobile%20Database%20Hero%20-%20Learn%20to%20create%20online%20offline%20data%20storage%20capable%20cross-platform%20apps%20in%2030%20minutes%20-%20Without%20Slide%20Notes.pptx)
 - [Demo](https://github.com/lucecarter/housemovingassistant)
 - [Notes](https://gist.github.com/LuceCarter/4603445b2133c855806ac913535a7813)
-
-<!--
 
 ### C# 11: The highlights
 
@@ -108,7 +103,7 @@ Storage of data is a core part of of many applications. Historically, when you a
 
 Mads takes a whirlwind tour through the language features in the upcoming C# 11. Static virtual members, list patterns, required properties and raw string literals are all among the new tools in your toolbox for writing cleaner, safer, more general and more concise code in C#.
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=1K44Nu9_7U8&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=9)
 - [Slides]
 - [Demo]
 
@@ -120,7 +115,7 @@ Mads takes a whirlwind tour through the language features in the upcoming C# 11.
 Forget magic strings, hand-written SQL queries and unfamiliar SDKs to deal with local data in your .NET MAUI apps. Entity Framework Core, also known as EF Core, is an object-mapper that empowers .NET developers to work with databases using the .NET languages and type system they know and love. In this session, learn how EF Core simplifies working with a cross-platform SQLite database in a .NET MAUI app and handles everything from complex queries to multiple updates that execute with a single line of developer code. Discover how client developers can use the same APIs that drive most REST, GraphQL, and gRPC backends on the server!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=i6UpskpyEiA&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=10)
 - [Slides]
 - [Demo]
 
@@ -132,7 +127,7 @@ Forget magic strings, hand-written SQL queries and unfamiliar SDKs to deal with 
 In this session, you will be able to replicate an amazing UI and to know some important tips to be a hero with XAML in .NET MAUI!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=yqiGfggSLPY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=11)
 - [Slides]
 - [Demo]
 
@@ -141,10 +136,10 @@ In this session, you will be able to replicate an amazing UI and to know some im
 
 [Sweeky Satpathy](https://twitter.com/SweekritiS) 
 
-Let&#x27;s learn how to get started with a starter DevOps pipeline in GitHub Actions and Azure DevOps. We&#x27;ll walkthrough some sample pipelines and learn how to configure the settings. You&#x27;ll learn tips and tricks to help you add DevOps goodness to all your .NET MAUI apps!
+Let's learn how to get started with a starter DevOps pipeline in GitHub Actions and Azure DevOps. We&#x27;ll walkthrough some sample pipelines and learn how to configure the settings. You'll learn tips and tricks to help you add DevOps goodness to all your .NET MAUI apps!
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=yqiGfggSLPY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=11)
 - [Slides]
 - [Demo]
 
@@ -156,7 +151,7 @@ Let&#x27;s learn how to get started with a starter DevOps pipeline in GitHub Act
 Now that you&#x27;ve built a great app with .NET MAUI, it&#x27;s time to publish it! In this session, you&#x27;ll learn how to package and distribute your apps for Windows, Android, iOS, and macOS.
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=COMB1QsbB1M&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=12)
 - [Slides]
 - [Demo]
 
@@ -168,7 +163,6 @@ Now that you&#x27;ve built a great app with .NET MAUI, it&#x27;s time to publish
 After all of the excellent topics today let&#x27;s kick back and enjoy a good gaming session. We will be looking at how we can build games in .NET MAUI and especially focussing on how we can leverage the power of SignalR to apply a multiplayer/realtime element to our games.
 
 
-- [Video]
+- [Video](https://www.youtube.com/watch?v=3jcVYUE-Tww&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=13)
 - [Slides]
 - [Demo]
--->
