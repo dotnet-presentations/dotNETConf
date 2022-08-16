@@ -140,8 +140,8 @@ Let's learn how to get started with a starter DevOps pipeline in GitHub Actions 
 
 
 - [Video](https://www.youtube.com/watch?v=yqiGfggSLPY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=11)
-- [Slides]
-- [Demo]
+- [Slides](dotnetconf-MAUI-Keynote)
+- [Demo](https://github.com/Sweekriti91/maui-samples/tree/optimize_devops/6.0/Apps/WeatherTwentyOne/src)
 
 
 ### Getting apps ready for stores &amp; publishing
