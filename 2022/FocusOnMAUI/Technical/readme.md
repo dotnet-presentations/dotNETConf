@@ -166,3 +166,15 @@ After all of the excellent topics today let&#x27;s kick back and enjoy a good ga
 - [Video](https://www.youtube.com/watch?v=3jcVYUE-Tww&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=13)
 - [Slides]
 - [Demo]
+
+
+###  Upgrading your JS Apps with .NET MAUI
+
+[Alyssa Nicoll](https://twitter.com/AlyssaNicoll) 
+
+As a JS girl in a .NET World, I have recently started learning the power of MAUI. MAUI is a .NET framework used for creating native mobile and desktop apps. I learned how to utilize a WebView inside a .NET MAUI application to wrap any sort of web app I desired (Angular, React, Vue, you name it!) and deploy it with the power of MAUI to any platform under the sun. I’m excited to show you how to do this — bridging two worlds has never been more fun!
+
+
+- [Video](https://www.youtube.com/watch?v=L5u6ImX6MfY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=17)
+- [Slides](alyssa-nicoll_dotnetconf-MAUI-deck.pdf)
+- [Demo](https://github.com/alyssamichelle/Upgrade-JS-App-with-MAUI)
