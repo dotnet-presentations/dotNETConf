@@ -140,8 +140,8 @@ Let's learn how to get started with a starter DevOps pipeline in GitHub Actions 
 
 
 - [Video](https://www.youtube.com/watch?v=yqiGfggSLPY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=11)
-- [Slides]
-- [Demo]
+- [Slides](dotnetconf-MAUI-Keynote)
+- [Demo](https://github.com/Sweekriti91/maui-samples/tree/optimize_devops/6.0/Apps/WeatherTwentyOne/src)
 
 
 ### Getting apps ready for stores &amp; publishing
@@ -178,3 +178,5 @@ As a JS girl in a .NET World, I have recently started learning the power of MAUI
 - [Video](https://www.youtube.com/watch?v=L5u6ImX6MfY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=17)
 - [Slides](alyssa-nicoll_dotnetconf-MAUI-deck.pdf)
 - [Demo](https://github.com/alyssamichelle/Upgrade-JS-App-with-MAUI)
+- Slides - [PowerPoint](shaun-lawrence-building-real-time-games-with-dotnet-maui.pptx) / [PDF](shaun-lawrence-building-real-time-games-with-dotnet-maui.pdf)
+- [Demo](https://github.com/bijington/orbit)
