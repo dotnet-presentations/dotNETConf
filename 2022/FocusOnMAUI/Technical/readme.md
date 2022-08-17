@@ -34,7 +34,7 @@ Securing customer information is of paramount importance. Come and learn how, us
 
 
 - [Video](https://www.youtube.com/watch?v=QO8XKsJ51Gc&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=3)
-- [Slides]
+- [Slides](AuthenticateUsers - Call backend.pptx)
 - [Demo](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/tree/main/tests/devapps/MauiApps)
 
 
