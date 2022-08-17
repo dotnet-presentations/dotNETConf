@@ -164,8 +164,8 @@ After all of the excellent topics today let&#x27;s kick back and enjoy a good ga
 
 
 - [Video](https://www.youtube.com/watch?v=3jcVYUE-Tww&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=13)
-- [Slides]
-- [Demo]
+- Slides - [PowerPoint](shaun-lawrence-building-real-time-games-with-dotnet-maui.pptx) / [PDF](shaun-lawrence-building-real-time-games-with-dotnet-maui.pdf)
+- [Demo](https://github.com/bijington/orbit)
 
 
 ###  Upgrading your JS Apps with .NET MAUI
@@ -178,5 +178,3 @@ As a JS girl in a .NET World, I have recently started learning the power of MAUI
 - [Video](https://www.youtube.com/watch?v=L5u6ImX6MfY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=17)
 - [Slides](alyssa-nicoll_dotnetconf-MAUI-deck.pdf)
 - [Demo](https://github.com/alyssamichelle/Upgrade-JS-App-with-MAUI)
-- Slides - [PowerPoint](shaun-lawrence-building-real-time-games-with-dotnet-maui.pptx) / [PDF](shaun-lawrence-building-real-time-games-with-dotnet-maui.pdf)
-- [Demo](https://github.com/bijington/orbit)
