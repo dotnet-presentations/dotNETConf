@@ -164,5 +164,5 @@ After all of the excellent topics today let&#x27;s kick back and enjoy a good ga
 
 
 - [Video](https://www.youtube.com/watch?v=3jcVYUE-Tww&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=13)
-- [Slides]
-- [Demo]
+- Slides - [PowerPoint](shaun-lawrence-building-real-time-games-with-dotnet-maui.pptx) / [PDF](shaun-lawrence-building-real-time-games-with-dotnet-maui.pdf)
+- [Demo](https://github.com/bijington/orbit)
