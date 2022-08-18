@@ -174,7 +174,76 @@ After all of the excellent topics today let&#x27;s kick back and enjoy a good ga
 
 As a JS girl in a .NET World, I have recently started learning the power of MAUI. MAUI is a .NET framework used for creating native mobile and desktop apps. I learned how to utilize a WebView inside a .NET MAUI application to wrap any sort of web app I desired (Angular, React, Vue, you name it!) and deploy it with the power of MAUI to any platform under the sun. I’m excited to show you how to do this — bridging two worlds has never been more fun!
 
-
 - [Video](https://www.youtube.com/watch?v=L5u6ImX6MfY&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=17)
 - [Slides](alyssa-nicoll_dotnetconf-MAUI-deck.pdf)
 - [Demo](https://github.com/alyssamichelle/Upgrade-JS-App-with-MAUI)
+
+### Creating Accessible Apps with .NET MAUI
+
+[Rachel Kang](https://twitter.com/therachelkang)
+
+Making your apps accessible has never been easier. Learn about the new APIs, improvements, and tools that make it easy to develop accessible apps with .NET MAUI. No matter what stage of the app development process you’re at, and no matter your level of familiarity with developing apps with accessibility in mind, it is always the right time to make your apps more accessible. Get started with .NET MAUI today!
+
+- [Video](https://www.youtube.com/watch?v=sU_sR2eL2JM&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=16)
+- [Slides]
+- [Demo]
+
+### Performance Improvements in .NET MAUI	
+
+Jonathan Peppers
+
+A deep dive into the performance improvements that went into .NET MAUI. Learn techniques for optimizing your own cross-platform .NET MAUI applications as well as some of the lower-level platform details.	https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/	
+
+- [Video](https://www.youtube.com/watch?v=Wsizdg3xnf4&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=18)
+- [Slides]
+- [Demo]
+
+### Error monitoring for .NET MAUI with Sentry
+
+Matt Johnson-Pint
+
+Do you know when your apps are crashing before your users do?  What if the crash wasn't caused by your own code, but native platform code running under the hood?  Sentry can find and tell you about both!  Come check out a demo from Matt Johnson-Pint, lead developer of Sentry's new .NET MAUI SDK.  You'll learn all about how to add Sentry to your .NET MAUI apps and see the types of insights into your errors it can offer, including details from native crashes.
+
+- [Video](https://www.youtube.com/watch?v=RW3hiukVXZQ&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=24)
+- [Slides]
+- [Demo]
+
+### Binding Native Libraries for .NET MAUI
+
+Kinfey Lo
+
+NET MAUI is a solution for developing cross-platform applications. On iOS/Android systems, there are many native libraries, including maps, cameras, communities, etc. We usually combine these native libraries to build applications. This course will introduce how to bind with native libraries in the .NET MAUI , allowing developers to combine third-party libraries to create the best .NET MAUI cross-platform applications	
+
+- [Video](https://www.youtube.com/watch?v=oibfI-ZsmzQ&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=19)
+- [Slides]
+- [Demo]
+
+### Syncing data with Azure Mobile Apps and .NET MAUI	
+
+[Adrian Hall](https://twitter.com/FizzyInTheHall)
+
+Mobile apps struggle to provide responsive access to databases stored in the cloud.  In this session, Adrian Hall will introduce you to Azure Mobile Apps and show how you can easily create an Azure Mobile Apps backend and integrate it into your .NET MAUI application for cross-platform offline access to your database.		
+
+- [Video](https://www.youtube.com/watch?v=7ZcchuKWODQ&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=21)
+- [Slides]
+- [Demo]
+
+### Unit Testing For Your .NET MAUI Applications
+
+Allan Ritchie
+
+Allan Ritchie takes use through the many options of unit testing your u.NET MAUI applications and using device runners.
+
+- [Video](https://www.youtube.com/watch?v=b4OJSmgMAaw&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=25)
+- [Slides]
+- [Demo]
+
+### .NET Community Toolkit 8.0 - MVVM Goodness for .NET MAUI
+
+[Sergio Pedri](https://twitter.com/SergioPedri)
+
+In this talk we'll introduce you to the .NET Community Toolkit and all the libraries and APIs it includes, and show a live demo demonstrating how you can use the new MVVM Toolkit source generators in a MAUI app to greatly simplify your code and make it easier to read and less verbose when building apps with the MVVM architecture.
+
+- [Video](https://www.youtube.com/watch?v=OP9g5dM0bgk&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=23)
+- [Slides]
+- [Demo]
