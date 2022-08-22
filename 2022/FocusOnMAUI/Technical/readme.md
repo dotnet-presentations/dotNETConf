@@ -247,3 +247,15 @@ In this talk we'll introduce you to the .NET Community Toolkit and all the libra
 - [Video](https://www.youtube.com/watch?v=OP9g5dM0bgk&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=23)
 - [Slides]
 - [Demo]
+
+### Building rich Skottie animations for cross-platform .NET applications
+
+[Jerome Laban](https://twitter.com/jlaban)
+
+Skottie is a Lottie Animation Player. It builds upon the Lottie player widely used for animations, improving on the performance, feature set, and platform cohesiveness.
+ 
+In this session we will demo how to use Skottie in cross-platform applications in order to provide engaging user experiences on all the platforms. Also, we will show how Uno Platform https://platform.uno/ team contributed to SkiaSharp and .NET Ecosystem so this performant native player for JSON animations can be embedded in utilized in UI frameworks like .NET MAUI, Uno Platform and others.
+
+- [Video](https://www.youtube.com/watch?v=HtF3Ru4nR74&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=21)
+- [Slides](dotnetconf--Lottie-Skottie%20-%20UnoPlatform%20-%20MAUI.pptx)
+- [Demo]
