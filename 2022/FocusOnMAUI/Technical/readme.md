@@ -22,8 +22,8 @@ With all this content about .NET MAUI it&#x27;s easy to forget that there comes 
 
 
 - [Video](https://www.youtube.com/watch?v=-oP7rB69gcc&list=PLdo4fOcmZ0oWePZU3W162NJ9vcXqgpMVc&index=2)
-- [Slides]
-- [Demo]
+- [Slides](Setting_up_shop_for_dotNET_MAUI.pptx)
+- Demo: N/A
 
 
 ### Authenticate users and call protected APIs in your MAUI app
