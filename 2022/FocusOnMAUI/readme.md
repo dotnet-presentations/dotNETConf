@@ -1,5 +1,5 @@
 # ".NET Conf: Focus on MAUI" 
-[![](Creative/FSharp%20550x182.png)](https://focus.dotnetconf.net)
+[![](Creative/MAUI%20550x182.png)](https://focus.dotnetconf.net)
 
 *.NET Conf: Focus on MAUI* is a free, one-day livestream event that features speakers from the community and Microsoft teams working on and using .NET Multi-platform App UI. Learn how to build native apps for Android, iOS, macOS and Windows with a single codebase using .NET MAUI. Hear from the team building the .NET MAUI framework and tools as well as experts building .NET MAUI apps, libraries, components and controls.
 
