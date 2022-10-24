@@ -5,8 +5,8 @@ This part of the repo contains workshops and technical content. Here, find links
 
 ## Workshops
 Need a workshop for your user group event? We suggest using:
-[.NET MAUI Workshop](https://github.com/dotnet-presentations/dotnet-maui-workshop)
-[Blazor Workshop](https://github.com/dotnet-presentations/blazor-workshop/)
+- [.NET MAUI Workshop](https://github.com/dotnet-presentations/dotnet-maui-workshop)
+- [Blazor Workshop](https://github.com/dotnet-presentations/blazor-workshop/)
 
 For more workshops, go to the [.NET Foundation Workshop Library](https://dotnetfoundation.org/community/resources)
 
