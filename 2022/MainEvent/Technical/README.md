@@ -10,8 +10,9 @@ Need a workshop for your user group event? We suggest using:
 
 For more workshops, go to the [.NET Foundation Workshop Library](https://dotnetfoundation.org/community/resources)
 
+## .NET Conf Session Code & Slides!
 
-### .NET Conf 2022 Keynote: Welcome to .NET 7
+### Keynote: Welcome to .NET 7
 
 Gaurav Seth Scott Hunter Safia Abdalla Julia Kasper David Fowler 
 
