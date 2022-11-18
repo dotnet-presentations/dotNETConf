@@ -295,7 +295,7 @@ Stephen Toub
 In this talk, we&#x27;ll survey a handful of the huge numbers of performance improvements that have found their way into .NET 7.
 
 
-- [Video](https://youtu.be/ArN9R_8eL-E)
+- [Video](https://youtu.be/yNPEdaxkTZw)
 - [Slides]
 - [Demo]
 
