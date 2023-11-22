@@ -1,0 +1,4 @@
+https://github.com/DustinCampbell/CSharpDemos
+https://github.com/dotnet/roslyn/blob/main/docs/Language%20Feature%20Status.md
+https://github.com/dotnet/csharplang
+https://learn.microsoft.com/dotnet/csharp/

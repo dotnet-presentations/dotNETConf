@@ -1,0 +1,2 @@
+https://azure.github.io/AppService/2023/11/14/dotnet8-ga.html
+https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-app-service-at-ignite-2023/ba-p/3977578

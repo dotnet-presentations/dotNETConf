@@ -1,0 +1,1 @@
+https://github.com/BillWagner/dotnetconf2023-everyday-csharp
