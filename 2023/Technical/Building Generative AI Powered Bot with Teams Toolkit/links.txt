@@ -1,0 +1,4 @@
+o	Teams Toolkit for Visual Studio documentation: https://aka.ms/ttk-vs-docs
+o	Teams Toolkit GitHub: https://aka.ms/ttk-github
+o	Teams Toolkit Samples: https://aka.ms/ttk-samples
+o	Teams AI library GitHub: https://aka.ms/teams-ai-github

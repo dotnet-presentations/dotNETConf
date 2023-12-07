@@ -1,0 +1,7 @@
+Set up an Azure API Center
+https://learn.microsoft.com/en-us/azure/api-center/set-up-api-center
+Provide Feedback
+https://github.com/Azure/api-center-preview/issues
+Recent Blog Posts
+https://aka.ms/apic/apim 
+https://aka.ms/apic/cli 

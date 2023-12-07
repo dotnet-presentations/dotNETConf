@@ -1,0 +1,31 @@
+Speakers
+----------------
+
+Jorge Cantón
+Linkedin: https://www.linkedin.com/in/jorgecanton/
+Twitter: https://twitter.com/jorge_magic
+Github: https://github.com/Jorgemagic
+
+Javier Suarez
+Linkedin: https://www.linkedin.com/in/jsuarezruiz/
+Twitter: https://twitter.com/jsuarezruiz
+Github: https://github.com/jsuarezruiz
+
+
+Resources
+-----------------
+Evergine
+https://evergine.com/
+
+.Net blog post
+https://devblogs.microsoft.com/dotnet/dotnet-maui-3d-app-with-evergine/
+
+DotnetBot demo code
+https://github.com/Jorgemagic/MAUIDotnet
+
+EverSneaks Showcase code
+https://github.com/EvergineTeam/EverSneaks
+
+CarRental App UI Challenge
+https://github.com/jsuarezruiz/netmaui-carrental-app-challenge
+
