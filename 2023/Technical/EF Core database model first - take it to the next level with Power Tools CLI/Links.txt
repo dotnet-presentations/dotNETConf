@@ -1,0 +1,1 @@
+https://www.nuget.org/packages/ErikEJ.EFCorePowerTools.Cli/#readme-body-tab

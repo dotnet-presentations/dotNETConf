@@ -1,0 +1,9 @@
+Download .NET 8: https://aka.ms/get-dotnet-8 
+Try output-caching with Redis support
+https://aka.ms/redis-cache/outputcaching
+Demo code:
+https://aka.ms/redis-cache/outputcache-openai-demo
+https://aka.ms/redis-cache/eshop
+https://aka.ms/redis-cache/leaderboard
+Blog on distributed caching:
+https://aka.ms/DistributedCachingBlog

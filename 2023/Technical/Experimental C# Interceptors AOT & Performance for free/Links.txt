@@ -1,0 +1,8 @@
+- Interceptors Proposal & Feature Specification: https://github.com/dotnet/csharplang/issues/7009
+- FlashOWare.Generators repository: https://github.com/FlashOWare/FlashOWare.Generators
+- FlashOWare.Tool repository: https://github.com/FlashOWare/FlashOWare.Tool
+ 
+- GitHub Profile: https://github.com/Flash0ver
+- YouTube Channel: https://www.youtube.com/@FlashOWare
+- X: https://twitter.com/0x_F0
+- Mastodon: https://dotnet.social/@0x_F0
